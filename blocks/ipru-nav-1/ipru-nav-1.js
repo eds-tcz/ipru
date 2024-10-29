@@ -1,4 +1,5 @@
 export default function decorate(block) {
+  // prettier-ignore
   [...block.children].forEach((row) => {
     row.classList.add('ipru-header');
     [...row.children].forEach((div, d) => {

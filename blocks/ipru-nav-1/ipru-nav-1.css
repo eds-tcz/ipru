@@ -1,15 +1,14 @@
 /* stylelint-disable no-descending-specificity */
 
-.ipru-nav-1-container{
+.ipru-nav-1-container {
     padding: 0 !important;
     margin: 0 auto !important;
     max-width: 1170px !important;
     height: 55px !important;
 }
 
-.ipru-nav-1-wrapper{
+.ipru-nav-1-wrapper {
     padding: 0 15px !important;
-
 }
 
 /* Container styling */
@@ -19,7 +18,6 @@
     background-color: #fff;
     font-family: Arial, sans-serif;
     justify-content: space-around;
-
 }
 
 /* ipru-nav-logo */
@@ -83,17 +81,10 @@
     color: #b00a13; /* Icon color */
 }
 
-
-
-
-
 /* Search bar Ends */
 
-
-
-
 /* Navigation Items */
-.ipru-nav-items{
+.ipru-nav-items {
     margin-left: 30px;
 }
 
@@ -133,19 +124,28 @@
     margin-top: 10px;
 }
 
-.ipru-noti-icon:hover{
+.ipru-noti-icon:hover {
     animation: swing 1s ease-in-out infinite; /* Set the duration and repeat */
     transform-origin: top center;
 }
 
 @keyframes swing {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(15deg); }
-    50% { transform: rotate(0deg); }
-    75% { transform: rotate(-15deg); }
-    100% { transform: rotate(0deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
-
 
 /* Login Button */
 .ipru-nav-login a {
