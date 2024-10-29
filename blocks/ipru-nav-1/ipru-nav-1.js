@@ -8,9 +8,9 @@ export default function decorate(block) {
       if (d === 1) {
         div.classList.add('ipru-search-bar');
         const pTag = div.querySelector('p');
-          if (pTag) {
+        if (pTag) {
           pTag.remove();
-          }
+        }
         // Create and append the search bar dynamically
         const searchBarContainer = document.createElement('div');
         searchBarContainer.classList.add('search-bar-container');
