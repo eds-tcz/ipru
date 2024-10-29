@@ -2,15 +2,15 @@ export default function decorate(block) {
   [...block.children].forEach((row) => {
     row.classList.add('ipru-header');
     [...row.children].forEach((div, d) => {
-      if (d === 0){
+      if (d === 0) {
         div.classList.add('ipru-nav-logo');
       }
-      if (d === 1){
+      if (d === 1) {
         div.classList.add('ipru-search-bar');
         const pTag = div.querySelector('p');
-        if (pTag) {
-        pTag.remove();
-        }
+          if (pTag) {
+          pTag.remove();
+          }
         // Create and append the search bar dynamically
         const searchBarContainer = document.createElement('div');
         searchBarContainer.classList.add('search-bar-container');
@@ -33,17 +33,17 @@ export default function decorate(block) {
         // Append the search bar container to the main div
         div.appendChild(searchBarContainer);
       }
-      if (d === 2){
-          div.classList.add('ipru-nav-items');
+      if (d === 2) {
+        div.classList.add('ipru-nav-items');
       }
-      if (d === 3){
-          div.classList.add('ipru-track-app');
+      if (d === 3) {
+        div.classList.add('ipru-track-app');
       }
-      if (d === 4){
-          div.classList.add('ipru-noti-icon');
+      if (d === 4) {
+        div.classList.add('ipru-noti-icon');
       }
-      if (d === 5){
-          div.classList.add('ipru-nav-login');
+      if (d === 5) {
+        div.classList.add('ipru-nav-login');
       }
     });
   });
