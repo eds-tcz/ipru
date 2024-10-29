@@ -154,6 +154,7 @@ button {
 }
 
 /* links */
+
 /* a:any-link {
   color: var(--link-color);
   text-decoration: none;
@@ -166,6 +167,7 @@ a:hover {
 } */
 
 /* buttons */
+
 /* a.button:any-link,
 button {
   box-sizing: border-box;
