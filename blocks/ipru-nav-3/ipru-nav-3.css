@@ -1,7 +1,7 @@
 .ipru-nav-3-container {
   margin: 0 auto !important;
   background-color: #2a4373; /* dark blue background */
-  color: #ffffff;
+  color: #fff;
 }
 
 .ipru-nav-3-wrapper {
@@ -19,6 +19,7 @@
   position: relative;
   margin: 0 auto !important;
 }
+
 .ipru-nav-notif-text {
   margin: auto;
 }
