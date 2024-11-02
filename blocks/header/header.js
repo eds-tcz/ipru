@@ -4,12 +4,13 @@ import { loadFragment } from '../fragment/fragment.js';
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
+// prettier-ignore
 function closeOnEscape(e) {
   if (e.code === 'Escape') {
     const nav = document.getElementById('nav');
     const navSections = nav.querySelector('.nav-sections');
     const navSectionExpanded = navSections.querySelector(
-      '[aria-expanded="true"]'
+      '[aria-expanded="true"]',
     );
     if (navSectionExpanded && isDesktop.matches) {
       // eslint-disable-next-line no-use-before-define
@@ -74,21 +75,20 @@ function toggleAllNavSections(sections, expanded = false) {
  * @param {Element} navSections The nav sections within the container element
  * @param {*} forceExpanded Optional param to force nav expand behavior when not null
  */
+
+// prettier-ignore
 function toggleMenu(nav, navSections, forceExpanded = null) {
-  const expanded =
-    forceExpanded !== null
-      ? !forceExpanded
-      : nav.getAttribute('aria-expanded') === 'true';
+  const expanded = forceExpanded !== null ? !forceExpanded : nav.getAttribute('aria-expanded') === 'true';
   const button = nav.querySelector('.nav-hamburger button');
   document.body.style.overflowY = expanded || isDesktop.matches ? '' : 'hidden';
   nav.setAttribute('aria-expanded', expanded ? 'false' : 'true');
   toggleAllNavSections(
     navSections,
-    expanded || isDesktop.matches ? 'false' : 'true'
+    expanded || isDesktop.matches ? 'false' : 'true',
   );
   button.setAttribute(
     'aria-label',
-    expanded ? 'Open navigation' : 'Close navigation'
+    expanded ? 'Open navigation' : 'Close navigation',
   );
   // enable nav dropdown keyboard accessibility
   const navDrops = navSections.querySelectorAll('.nav-drop');
@@ -122,6 +122,8 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
  * loads and decorates the header, mainly the nav
  * @param {Element} block The header block element
  */
+
+// prettier-ignore
 export default async function decorate(block) {
   // load nav as fragment
   const navMeta = getMetadata('nav');
@@ -152,12 +154,10 @@ export default async function decorate(block) {
     navSections
       .querySelectorAll(':scope .default-content-wrapper > ul > li')
       .forEach((navSection) => {
-        if (navSection.querySelector('ul'))
-          navSection.classList.add('nav-drop');
+        if (navSection.querySelector('ul')) { navSection.classList.add('nav-drop'); }
         navSection.addEventListener('click', () => {
           if (isDesktop.matches) {
-            const expanded =
-              navSection.getAttribute('aria-expanded') === 'true';
+            const expanded = navSection.getAttribute('aria-expanded') === 'true';
             toggleAllNavSections(navSections);
             navSection.setAttribute(
               'aria-expanded',
