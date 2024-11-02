@@ -24,12 +24,13 @@ function closeOnEscape(e) {
   }
 }
 
+// prettier-ignore
 function closeOnFocusLost(e) {
   const nav = e.currentTarget;
   if (!nav.contains(e.relatedTarget)) {
     const navSections = nav.querySelector('.nav-sections');
     const navSectionExpanded = navSections.querySelector(
-      '[aria-expanded="true"]'
+      '[aria-expanded="true"]',
     );
     if (navSectionExpanded && isDesktop.matches) {
       // eslint-disable-next-line no-use-before-define
@@ -161,7 +162,7 @@ export default async function decorate(block) {
             toggleAllNavSections(navSections);
             navSection.setAttribute(
               'aria-expanded',
-              expanded ? 'false' : 'true'
+              expanded ? 'false' : 'true',
             );
           }
         });
