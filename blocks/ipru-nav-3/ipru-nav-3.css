@@ -1,0 +1,46 @@
+.ipru-nav-3-container {
+  margin: 0 auto !important;
+  background-color: #2a4373; /* dark blue background */
+  color: #fff;
+}
+
+.ipru-nav-3-wrapper {
+  max-width: 1170px !important;
+  padding: 3px !important;
+}
+
+.ipru-header-notif {
+  /* white text */
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  position: relative;
+  margin: 0 auto !important;
+}
+
+.ipru-nav-notif-text {
+  margin: auto;
+}
+
+.ipru-nav-notif-text p {
+  flex: 1;
+  position: relative; /* Add padding for the icon space */
+  margin: 0 auto !important;
+}
+
+.ipru-nav-notif-text p::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('../../images/ipru-nav-img/ticker-icon.svg'); /* Replace with your SVG icon path */
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.ipru-nav-notif-text a {
+  color: #fff; /* link color */
+  text-decoration: underline;
+}

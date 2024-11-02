@@ -1,0 +1,164 @@
+/* stylelint-disable no-descending-specificity */
+
+.ipru-nav-1-container {
+  padding: 0 !important;
+  margin: 0 auto !important;
+  max-width: 1170px !important;
+  height: 55px !important;
+}
+
+.ipru-nav-1-wrapper {
+  padding: 0 15px !important;
+}
+
+/* Container styling */
+.ipru-header {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  justify-content: space-around;
+}
+
+/* ipru-nav-logo */
+.ipru-nav-logo img {
+  height: 46px;
+}
+
+/* Search Bar */
+.ipru-search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.ipru-search-bar input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Search Bar */
+
+/* Main search bar container styling */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  width: 100%; /* Adjust width as needed */
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #ccc; /* Bottom border */
+  padding-bottom: 5px; /* Adds space at the bottom */
+  position: relative;
+}
+
+/* Input field styling */
+.search-bar input {
+  border: none;
+  outline: none;
+  flex-grow: 1; /* Fills remaining space */
+  font-size: 16px;
+  color: #333;
+  padding: 5px; /* Adjust padding as needed */
+}
+
+/* Search icon styling */
+.search-icon {
+  display: flex;
+  align-items: center;
+  padding-left: 8px; /* Space between input and icon */
+}
+
+.search-icon img {
+  width: 20px; /* Adjust size of the icon */
+  height: 20px;
+  cursor: pointer;
+  color: #b00a13; /* Icon color */
+}
+
+/* Search bar Ends */
+
+/* Navigation Items */
+.ipru-nav-items {
+  margin-left: 30px;
+}
+
+.ipru-nav-items ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.ipru-nav-items li a {
+  text-decoration: none;
+  color: #767676;
+  font-size: 15px;
+}
+
+/* Track Application Button */
+.ipru-track-app a {
+  background-color: #e8edf2;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #767676;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* Notification Icon */
+.ipru-noti-icon {
+  font-size: 20px;
+  color: #333;
+  position: relative;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.ipru-noti-icon:hover {
+  animation: swing 1s ease-in-out infinite; /* Set the duration and repeat */
+  transform-origin: top center;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Login Button */
+.ipru-nav-login a {
+  background-color: #a92c2d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
