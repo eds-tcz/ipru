@@ -5,6 +5,8 @@ import { loadFragment } from '../fragment/fragment.js';
  * loads and decorates the footer
  * @param {Element} block The footer block element
  */
+
+// prettier-ignore
 export default async function decorate(block) {
   // load footer as fragment
   const footerMeta = getMetadata('footer');
