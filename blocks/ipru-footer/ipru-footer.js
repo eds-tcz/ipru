@@ -5,7 +5,6 @@ export default function decorate(block) {
       [...row.children].forEach((div, d) => {
         // if (d === 0) {
         div.classList.add('col-'.concat(d + 1));
-        const h3 = div.querySelector('h3');
         div.querySelectorAll('h3').forEach((h3) => {
           h3.classList.add('col-heading');
         });
