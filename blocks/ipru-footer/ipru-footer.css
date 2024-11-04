@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 .ipru-footer-container {
   background-color: #97291e;
   color: #fff;
@@ -24,7 +26,6 @@ padding: 0 15px;
     margin-top: 0;
     text-transform: capitalize;
     font-size: 18px;
-    font-family: Mulish;
     color: #fff;
     text-decoration: none;
 }
