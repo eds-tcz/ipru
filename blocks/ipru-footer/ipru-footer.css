@@ -1,4 +1,68 @@
 .ipru-footer-container {
   background-color: #97291e;
   color: #fff;
+ padding: 40px 0 60px
+}
+.ipru-footer-wrapper{
+width: 1170px;
+padding: 0 15px;
+}
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section > div{
+  width: 25%;
+}
+.col-heading{
+      font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: "Mulish";
+    color: #fff;
+    text-decoration: none;
+}
+.col-heading a{
+  color: #fff;
+  text-decoration: #fff;
+}
+.col-list-lev-1{
+  display: inline-block;
+    font-weight: 600;
+    padding-left: 0;
+    width: 100%;
+    margin-top: 0;
+}
+.col-list-lev-1>li{
+  list-style-type: none;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.col-list-lev-1>li a{
+  color: #fff;
+    text-decoration: none;
+}
+.col-list-lev-2{
+  padding-left: 10px;
+}
+.col-list-lev-2>li{
+list-style-type: none;
+font-size: 13px;
+}
+.col-list-lev-2>li a{
+  color: #fff;
+    text-decoration: none;
+}
+.col-2> .col-list-lev-1:nth-child(5)>li{
+  margin-bottom: 0;
+}
+.col-3> .col-list-lev-1>li{
+  margin-bottom: 0;
+}
+.col-4> .col-list-lev-1:nth-child(6)>li{
+  margin-bottom: 0;
+
 }
