@@ -3,7 +3,9 @@
 .ipru-footer-container {
   background-color: #97291e;
   color: #fff;
- padding: 40px 0 60px
+ padding: 40px 0 60px;
+ display: flex;
+  justify-content: center;
 }
 
 .ipru-footer-wrapper{
