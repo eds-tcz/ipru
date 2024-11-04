@@ -16,20 +16,20 @@ export default function decorate(block) {
         });
       });
     }
-    if (r === 1) {
-      [...row.children].forEach((div) => {
-        div.classList.add('footer-info');
-      });
-    }
-    if (r === 2) {
-      [...row.children].forEach((div, d) => {
-        if (d === 0) {
-          div.classList.add('footer-warn-text');
-        }
-        if (d === 1) {
-          div.classList.add('footer-warn-button');
-        }
-      });
-    }
+    // if (r === 1) {
+    //   [...row.children].forEach((div) => {
+    //     div.classList.add('footer-info');
+    //   });
+    // }
+    // if (r === 2) {
+    //   [...row.children].forEach((div, d) => {
+    //     if (d === 0) {
+    //       div.classList.add('footer-warn-text');
+    //     }
+    //     if (d === 1) {
+    //       div.classList.add('footer-warn-button');
+    //     }
+    //   });
+    // }
   });
 }
