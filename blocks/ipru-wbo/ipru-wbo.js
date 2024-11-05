@@ -3,7 +3,6 @@ export default function decorate(block) {
     if (r === 0) {
       row.classList.add('ipru-wbo-heading');
     }
-
     if (r === 1) {
       row.classList.add('ipru-wbo-cards');
       [...row.children].forEach((div, d) => {
