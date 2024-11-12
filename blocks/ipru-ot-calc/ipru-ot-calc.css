@@ -1,0 +1,106 @@
+.ipru-ot-calc-container{
+    background: #eeefe2;
+    width: 100%;
+}
+
+.ipru-ot-calc {
+        width: 90%;
+    margin: 0rem auto 25px;
+    color: #444;
+    padding: 4rem 0;
+    max-width: 1150px;
+    padding: 3rem 30px 30px 14px;
+}
+
+.ot-cal-heading>div>p{
+line-height: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.ot-cal-heading>div>h2{
+    line-height: 30px;
+    font-size: 26px;
+    font-weight: 700;
+    width: 325px;
+    margin: 0;
+}
+
+.ot-cal-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tool-table{
+    width: 45%;
+
+}
+
+.tool-table table{
+    border-spacing: 15px;
+}
+
+.tool-table td{
+    width: 150px;
+    height: 80px !important;
+    text-align: center;
+}
+
+.tool-table td p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-size: 16px;
+    font-weight: 500;
+    color: #444;
+    margin-top: 0px;
+    line-height: 17px;
+    width: 85px;
+}
+
+.tool-table td picture{
+        height: 70px;
+    width: 70px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2ps solid #fff;
+    transition: .3s ease-in;
+}
+
+.tool-table tr:nth-child(1) td:nth-child(1) picture{
+    background: #e06336;
+}
+
+.tool-table tr:nth-child(1) td:nth-child(1) img{
+    filter: brightness(0) invert(1);
+}
+
+.button-container a{
+    background-color: #e06336;
+    border-radius: 38px;
+    color: #fff;
+    width:310px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-container a:hover{
+    background:#e06336 ;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
