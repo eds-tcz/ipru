@@ -60,9 +60,11 @@ export default function decorate(block) {
             hlink.forEach((a, i) => {
               if (i === 0) {
                 a.setAttribute('onclick', 'prevSlide()');
+                a.removeAttribute('href');
               }
               if (i === 1) {
                 a.setAttribute('onclick', 'nextSlide()');
+                a.removeAttribute('href');
               }
             });
           }
