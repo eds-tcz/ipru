@@ -19,20 +19,20 @@ export default function decorate(block) {
               if (i === 0) {
                 [...tr.cells].forEach((td, j) => {
                   td.classList.add('card');
-                  td.setAttribute('onclick', 'showSlide(' + j + ')');
+                  td.setAttribute('onclick', `showSlide(${j})`);
                 });
               }
               if (i === 1) {
                 [...tr.cells].forEach((td, j) => {
                   td.classList.add('card');
-                  td.setAttribute('onclick', 'showSlide(' + (j + 3) + ')');
+                  td.setAttribute('onclick', `showSlide(${j + 3})`);
                 });
               }
               if (i === 2) {
                 [...tr.cells].forEach((td, j) => {
                   if (j === 0) {
                     td.classList.add('card');
-                    td.setAttribute('onclick', 'showSlide(' + 6 + ')');
+                    td.setAttribute('onclick', `showSlide(${6})`);
                   }
                 });
               }
