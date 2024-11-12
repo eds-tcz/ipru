@@ -1,0 +1,44 @@
+.insure-assure-body {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+.card.active {
+  background-color: #ffe7d9;
+  border-color: #fa8072;
+}
+.card img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 24px;
+}
+
+/* < ------ Right Side Carousel ------ > */
+
+.right-card {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.carousel-slide {
+  display: none;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.carousel-slide.active {
+  display: table-cell;
+}
