@@ -5,7 +5,7 @@ export default function decorate(block) {
       if (d === 0) {
         div.classList.add('prom-card-title');
       }
-      if (d != 0) {
+      if (d !== 0) {
         div.classList.add('prom-card-data', 'prom-data-'.concat(d));
       }
     });
