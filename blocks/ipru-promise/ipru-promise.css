@@ -1,0 +1,80 @@
+.ipru-prom-cards{
+    display:flex
+}
+
+.prom-card-title{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+
+.prom-card-title p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.prom-card-title h2{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    width: 222px;
+    color: #444;
+    margin: 0;
+}
+
+.prom-card-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+.prom-card-data:hover{
+    transform: scale(1.1);
+}
+
+.prom-card-data:hover img{
+   transform:rotate(10deg);
+}
+
+.prom-card-data p{
+        font-size: 16px;
+    font-weight: 500;
+    color: #696969;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    height: 45%;
+}
+
+.prom-card-data p:last-child{
+width: 134px;
+}
+
+.prom-card-data p picture{
+width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: #eef0e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.prom-card-data h2{
+font-size: 18px;
+    font-weight: 800;
+    color: #e06336;
+    padding-top: 1rem;
+    width: max-content;
+    text-align: center;
+    margin: 0;
+}
