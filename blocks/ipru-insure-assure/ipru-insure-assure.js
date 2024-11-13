@@ -18,6 +18,9 @@ export default function decorate(block) {
             [...table.rows].forEach((tr, i) => {
               if (i === 0) {
                 [...tr.cells].forEach((td, j) => {
+                  if (i === 0 && j === 0) {
+                    td.classList.add('active');
+                  }
                   td.classList.add('card');
                   td.setAttribute('onclick', `showSlide(${j})`);
                 });

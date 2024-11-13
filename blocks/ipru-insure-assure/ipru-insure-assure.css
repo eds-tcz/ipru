@@ -1,8 +1,8 @@
 .ipru-insure-assure-container {
   width: 100%;
   padding: 35px 0 50px;
-  margin: 0rem 0 40px 0 !important;
-  background: hsl(64, 28%, 89%);
+  margin: 0 40px 0 !important;
+  background: #e8eac5
   color: #444;
   position: relative;
 }
@@ -104,20 +104,17 @@
   padding: 0;
 }
 
-.card img {
-  margin: 0 !important;
-}
-
 .card p:last-child {
   margin: 10px 0;
 }
 
 .card.active {
-  background-color: #ffe7d9;
-  border-color: #fa8072;
+  border: 1px solid #f15a22;
+    background: #fcd9bc;
 }
 
 .card img {
+    margin: 0 !important;
   display: block;
   margin: 0 auto 10px;
   width: 24px;
@@ -150,7 +147,7 @@
 }
 
 .carousel-slide h2 {
-  margin: 20px 0 0 0;
+  margin: 20px 0 0;
   font-size: 18px;
   font-weight: 700;
   color: #444;
@@ -172,7 +169,6 @@
   text-align: center;
   border-top: none;
   border-radius: 0 0 8px 8px;
-  width: 408px;
   background-color: #f9f9f9;
   margin: 0 auto;
   width: 416.94px;
