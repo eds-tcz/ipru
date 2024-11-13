@@ -1,0 +1,193 @@
+.ipru-insure-assure-container {
+  width: 100%;
+  padding: 35px 0 50px;
+  margin: 0 40px !important;
+  background: #e8eac5;
+  color: #444;
+  position: relative;
+}
+
+.ipru-insure-assure-wrapper {
+  margin: 0 auto;
+  padding: 0 30px 0 14px !important;
+  max-width: 1106px !important;
+}
+
+.para-1 {
+  font-size: 18px;
+  padding-bottom: 0;
+  line-height: 22px;
+  font-weight: 600;
+  color: #444;
+  margin: 0;
+}
+
+.insure-assure-heading h2 {
+  font-size: 24px;
+  padding-bottom: 10px !important;
+  line-height: 30px;
+  font-weight: 800;
+  width: 286px;
+  color: #444;
+  margin: 0;
+}
+
+.para-2 {
+  line-height: 27px;
+  font-size: 18px !important;
+  font-weight: 400;
+  margin-top: 10px !important;
+  color: #444;
+  text-align: unset !important;
+  margin-bottom: 0;
+}
+
+.para-3 {
+  font-size: 14px;
+  cursor: pointer;
+  color: #444;
+  font-weight: 800;
+  margin: 0;
+}
+
+.para-3 a {
+  text-decoration: none;
+  color: #444;
+}
+
+/* < ------ insure-assure-body ------ > */
+
+.insure-assure-body {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 10px 25px;
+  margin: 15px 0 10px;
+  border-radius: 30px;
+}
+
+.left-card p:first-child {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+  padding-top: 16px;
+  margin: 0;
+}
+
+.grid-table {
+  margin-top: 12px;
+  padding-top: 15px;
+  width: 100%;
+  border-collapse: separate; /* Ensure the table cells aren't collapsed */
+  border-spacing: 10px;
+}
+
+.card {
+  width: 187px;
+  background: #fafafa;
+  border-radius: 14px;
+  padding: 24px 10px 15px;
+  height: 96px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card p:first-child {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.card p:last-child {
+  margin: 10px 0;
+}
+
+.card.active {
+  border: 1px solid #f15a22;
+  background: #fcd9bc;
+}
+
+.card img {
+  margin: 0 !important;
+  display: block;
+  width: 24px;
+}
+
+/* < ------ Right Side Carousel ------ > */
+
+.right-card {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 61px 0 auto;
+}
+
+.right-card-table {
+  padding: 22px 24px 0;
+  width: auto;
+  height: 423px;
+}
+
+.carousel-slide {
+  display: none;
+  text-align: left;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  background-color: #f9f9f9;
+}
+
+.carousel-slide p:first-child {
+  margin: 0;
+}
+
+.carousel-slide h2 {
+  margin: 20px 0 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+
+.carousel-slide p:last-child {
+  font-size: 16px;
+  margin-top: 5;
+}
+
+.carousel-slide.active {
+  display: table-cell;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  width: 416.94px;
+  margin-top: -14px;
+  padding-bottom: 20px;
+}
+
+.carousel-controls picture {
+  top: unset !important;
+  bottom: -38px !important;
+  background: #fbcdbd;
+  border-radius: 50%;
+  right: 26% !important;
+  padding: 4px;
+  height: 27px;
+  width: 27px;
+  cursor: pointer;
+}
+
+.carousel-controls img {
+  width: auto;
+  height: 10px;
+}

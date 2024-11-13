@@ -12,6 +12,35 @@ export default function decorate(block) {
       [...row.children].forEach((div, d) => {
         if (d === 0) {
           div.classList.add('left-card');
+          const table = div.querySelector('table');
+          if (table) {
+            table.classList.add('grid-table');
+            [...table.rows].forEach((tr, i) => {
+              if (i === 0) {
+                [...tr.cells].forEach((td, j) => {
+                  if (i === 0 && j === 0) {
+                    td.classList.add('active');
+                  }
+                  td.classList.add('card');
+                  td.setAttribute('onclick', `showSlide(${j})`);
+                });
+              }
+              if (i === 1) {
+                [...tr.cells].forEach((td, j) => {
+                  td.classList.add('card');
+                  td.setAttribute('onclick', `showSlide(${j + 3})`);
+                });
+              }
+              if (i === 2) {
+                [...tr.cells].forEach((td, j) => {
+                  if (j === 0) {
+                    td.classList.add('card');
+                    td.setAttribute('onclick', `showSlide(${6})`);
+                  }
+                });
+              }
+            });
+          }
         }
         if (d === 1) {
           div.classList.add('right-card');
@@ -19,7 +48,27 @@ export default function decorate(block) {
           if (table) {
             table.classList.add('right-card-table');
             [...table.rows].forEach((tr, i) => {
-              tr.classList.add('card-no-'.concat(i + 1));
+              [...tr.cells].forEach((td, j) => {
+                td.classList.add('carousel-slide');
+                if (i === 0 && j === 0) {
+                  td.classList.add('active');
+                }
+              });
+            });
+          }
+          const siblingP = div.querySelector('p:not(table p)');
+          if (siblingP) {
+            siblingP.classList.add('carousel-controls');
+            const hlink = siblingP.querySelectorAll('picture');
+            hlink.forEach((a, i) => {
+              if (i === 0) {
+                a.setAttribute('onclick', 'prevSlide()');
+                a.removeAttribute('href');
+              }
+              if (i === 1) {
+                a.setAttribute('onclick', 'nextSlide()');
+                a.removeAttribute('href');
+              }
             });
           }
         }
