@@ -56,7 +56,7 @@ export default function decorate(block) {
           const siblingP = div.querySelector('p:not(table p)');
           if (siblingP) {
             siblingP.classList.add('carousel-controls');
-            const hlink = siblingP.querySelectorAll('a');
+            const hlink = siblingP.querySelectorAll('picture');
             hlink.forEach((a, i) => {
               if (i === 0) {
                 a.setAttribute('onclick', 'prevSlide()');
