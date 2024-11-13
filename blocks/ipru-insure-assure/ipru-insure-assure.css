@@ -1,7 +1,7 @@
 .ipru-insure-assure-container {
   width: 100%;
   padding: 35px 0 50px;
-  margin: 0 40px 0 !important;
+  margin: 0 40px !important;
   background: #e8eac5;
   color: #444;
   position: relative;
@@ -116,7 +116,6 @@
 .card img {
   margin: 0 !important;
   display: block;
-  margin: 0 auto 10px;
   width: 24px;
 }
 
