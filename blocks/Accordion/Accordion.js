@@ -17,9 +17,10 @@ export default function decorate(block) {
     // decorate accordion item
     const details = document.createElement('details');
     details.className = 'accordion-item';
-      if ( row=== 0) {
-        faq.className = 'faqs-accordion-faq-one';
-      }
+    if (row === 0) {
+      // eslint-disable-next-line no-undef
+      faq.className = 'faqs-accordion-faq-one';
+    }
     details.append(summary, body);
     row.replaceWith(details);
   });
