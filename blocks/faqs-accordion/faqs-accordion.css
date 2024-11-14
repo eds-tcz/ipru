@@ -23,9 +23,9 @@ border: 1px solid #ddd;
 }
 
 .faqs-accordion-wrapper {
-   margin-left: 0px !important;
+   margin-left: 0 !important;
     flex: 1.7;
-    margin-right: 0px !important;
+    margin-right: 0 !important;
 }
 
 .faqs-accordion-question {
@@ -78,7 +78,7 @@ border: 1px solid #ddd;
 .faqs-accordion-answer.show {
     display: block;
         transition: 0.6s ease-in-out;
-    box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0 3px 6px #00000029;
     border-radius: 10px;
 }
 
@@ -99,8 +99,5 @@ display: flex;
     opacity: 1;
     flex-wrap: wrap;
 }
-.default-content-wrapper{
-        margin-right: 0px !important;
-    padding-right: 0px !important;
-}
+
 
