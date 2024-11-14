@@ -8,7 +8,6 @@ const handlefaqClick = (accordion) => {
     accordion.currentTarget.classList.add('show');
   }
 };
-
 export default function decorate(block) {
   [...block.children].forEach((row) => {
     row.className = 'faqs-accordion-item';
