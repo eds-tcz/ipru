@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 .sm-carousel{
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +55,7 @@ margin-top: 18px;
 font-size: 24px;
     font-weight: 800;
     color: #444;
-    margin: 4px 0 10px 0 !important;
+    margin: 4px 0 10px !important;
     z-index: 9;
     position: relative;
     max-width: 250px;
