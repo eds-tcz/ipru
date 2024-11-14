@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 .slide-body{
     height: 268px;
     background-size: 100%;
@@ -88,7 +90,7 @@ display: flex;
 .slide-body td:nth-child(2){
    font-weight: 500;
     font-size: 16px;
-    font-family: "Mulish", sans-serif;
+    font-family: Mulish, sans-serif;
     text-decoration: none;
     text-align: center;
     color: #fff;
