@@ -100,8 +100,14 @@ function nextSlide() {
 }
 // prettier-ignore
 function prevSlide() {
-  currentSlide = (currentSlide - 1 + document.querySelectorAll('.carousel-slide').length) %
-    document.querySelectorAll('.carousel-slide').length;
+  currentSlide = (currentSlide - 1 + document.querySelectorAll('.carousel-slide').length) % document.querySelectorAll('.carousel-slide').length;
   updateCarousel();
 }
-export { showSlide, nextSlide, prevSlide, updateCarousel };
+
+// prettier-ignore
+export {
+  showSlide,
+  nextSlide,
+  prevSlide,
+  updateCarousel
+};
