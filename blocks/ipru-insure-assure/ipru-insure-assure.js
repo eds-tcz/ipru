@@ -109,5 +109,5 @@ export {
   showSlide,
   nextSlide,
   prevSlide,
-  updateCarousel
+  updateCarousel,
 };
