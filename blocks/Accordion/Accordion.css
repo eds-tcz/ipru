@@ -1,6 +1,6 @@
 .accordion details {
   box-shadow: 0 3px 6px #00000029;
-    border-radius: 10px !important;
+  border-radius: 10px !important;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
@@ -55,21 +55,21 @@
 }
 
 .accordion details[open] .accordion-item-label {
-color: #000;
-font-weight: bold;
+  color: #000;
+  font-weight: bold;
 }
 
-.accordion-wrapper{
-      width: 40%;
+.accordion-wrapper {
+  width: 40%;
 }
 
 .accordion-item-body {
-padding: 4px 18px !important;
-font-size: 14px;
+  padding: 4px 18px !important;
+  font-size: 14px;
 }
 
 .accordion-item-body ul {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .compound-interest-faqs h2 {
