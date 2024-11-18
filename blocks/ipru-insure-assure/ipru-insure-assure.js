@@ -76,3 +76,32 @@ export default function decorate(block) {
     }
   });
 }
+
+let currentSlide = 0;
+
+function updateCarousel() {
+  document.querySelectorAll('.card').forEach((card, index) => {
+    card.classList.toggle('active', index === currentSlide);
+  });
+  document.querySelectorAll('.carousel-slide').forEach((slide, index) => {
+    slide.classList.toggle('active', index === currentSlide);
+  });
+}
+
+function showSlide(index) {
+  currentSlide = index;
+  updateCarousel();
+}
+
+// prettier-ignore
+function nextSlide() {
+  currentSlide = (currentSlide + 1) % document.querySelectorAll('.carousel-slide').length;
+  updateCarousel();
+}
+// prettier-ignore
+function prevSlide() {
+  currentSlide = (currentSlide - 1 + document.querySelectorAll('.carousel-slide').length) %
+    document.querySelectorAll('.carousel-slide').length;
+  updateCarousel();
+}
+export { showSlide, nextSlide, prevSlide, updateCarousel };
