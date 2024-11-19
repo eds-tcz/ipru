@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 .ipru-feature-card{
     display: flex;
     justify-content: center;

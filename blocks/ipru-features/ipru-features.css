@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 .ipru-features {
     display: flex;
     gap: 20px;
