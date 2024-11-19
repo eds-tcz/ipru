@@ -1,28 +1,41 @@
-// let currentSlide = 0;
+function callFunction() {
+  let currentSlide = 0;
 
-// function showSlide(index) {
-//   currentSlide = index;
-//   updateCarousel();
-// }
+  // Named function to update the carousel
+  function updateCarousel() {
+    document.querySelectorAll('.card').forEach((card, index) => {
+      card.classList.toggle('active', index === currentSlide);
+    });
+    document.querySelectorAll('.carousel-slide').forEach((slide, index) => {
+      slide.classList.toggle('active', index === currentSlide);
+    });
+  }
 
-// function nextSlide() {
-//   currentSlide =
-//     (currentSlide + 1) % document.querySelectorAll('.carousel-slide').length;
-//   updateCarousel();
-// }
+  // Named function to display a specific slide
+  function showSlide(index) {
+    currentSlide = index;
+    updateCarousel();
+  }
 
-// function prevSlide() {
-//   currentSlide =
-//     (currentSlide - 1 + document.querySelectorAll('.carousel-slide').length) %
-//     document.querySelectorAll('.carousel-slide').length;
-//   updateCarousel();
-// }
+  // Named function to move to the next slide
+  function nextSlide() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    currentSlide = (currentSlide + 1) % slides.length;
+    updateCarousel();
+  }
 
-// function updateCarousel() {
-//   document.querySelectorAll('.card').forEach((card, index) => {
-//     card.classList.toggle('active', index === currentSlide);
-//   });
-//   document.querySelectorAll('.carousel-slide').forEach((slide, index) => {
-//     slide.classList.toggle('active', index === currentSlide);
-//   });
-// }
+  // Named function to move to the previous slide
+  function prevSlide() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    updateCarousel();
+  }
+
+  // Assign named functions to `window` for global access
+  window.updateCarousel = updateCarousel;
+  window.showSlide = showSlide;
+  window.nextSlide = nextSlide;
+  window.prevSlide = prevSlide;
+}
+
+callFunction();
