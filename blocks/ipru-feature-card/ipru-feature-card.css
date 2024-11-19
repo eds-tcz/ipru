@@ -1,0 +1,76 @@
+/* stylelint-disable no-descending-specificity */
+
+.ipru-feature-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.ipru-card-feat1,.ipru-card-feat2,.ipru-card-feat3{
+    width: 33%;
+    height: 153px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    gap: 20px;
+}
+
+.ipru-card-feat1{
+    background: #FEF2ED;
+}
+
+.ipru-card-feat2{
+    background: #EEEFE2;
+}
+
+.ipru-card-feat3{
+    background: #EBF1F5;
+}
+
+.card-feat-img picture{
+width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.card-feat-img img{
+    width: 43px;
+    height: 43px;
+}
+
+.card-feat-body{
+        width: 193px;
+    color: black;
+}
+
+.card-feat-body h2{
+font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-feat-body p{
+font-size: 15px;
+margin: 0;
+    margin-block-start: 11px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.card-feat-arrow picture{
+        background: #fff;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
