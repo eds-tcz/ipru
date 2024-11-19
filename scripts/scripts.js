@@ -1,16 +1,16 @@
 import {
   buildBlock,
-  loadHeader,
-  loadFooter,
+  decorateBlocks,
   decorateButtons,
   decorateIcons,
   decorateSections,
-  decorateBlocks,
   decorateTemplateAndTheme,
-  waitForFirstImage,
+  loadCSS,
+  loadFooter,
+  loadHeader,
   loadSection,
   loadSections,
-  loadCSS,
+  waitForFirstImage,
 } from './aem.js';
 
 /**
