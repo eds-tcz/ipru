@@ -6,7 +6,8 @@
 }
 
 .ipru-features-wrapper {
-  padding-top: 9rem !important;
+    overflow: hidden;
+  padding: 0!important;
 }
 
 .ipru-features-container {
@@ -26,24 +27,26 @@
   padding-top: 16px;
 }
 
-.features-heading h2 {
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  padding: 0 0 0 1rem;
-  color: #444;
-  margin-bottom: 6px !important;
-  margin-top: 0;
+.features-heading h2{
+        font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 0 0 1rem;
+    color: #444;
+    margin-bottom: 6px !important;
+    margin-top: 0;
+    font-family: Mulish, sans-serif;
 }
 
-.features-heading h3 {
-  font-size: 26px;
-  font-weight: 800;
-  line-height: 30px;
-  width: 310px;
-  padding: 0 0 1rem 1rem;
-  color: #444;
-  margin-top: 0;
+.features-heading h3{
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 30px;
+    width: 310px;
+    padding: 0 0 1rem 1rem;
+    color: #444;
+    margin-top: 0;
+    font-family: Mulish, sans-serif;
 }
 
 .feat-cards {
@@ -80,20 +83,22 @@
   width: 362px;
 }
 
-.feat-table h3 {
-  color: #e06336;
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 15.06px;
-  margin: 0;
+.feat-table h3{
+    color: #e06336;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 15.06px;
+    margin: 0;
+    font-family: Mulish, sans-serif;
 }
 
-.feat-table h2 {
-  color: #444;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 17.57px;
-  margin: 0;
+.feat-table h2{
+color: #444;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 17.57px;
+    margin: 0;
+    font-family: Mulish, sans-serif;
 }
 
 .feat-body {
@@ -104,22 +109,24 @@
   padding: 1rem 20px;
 }
 
-.feat-body p {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 17.57px;
-  opacity: 0.9;
-  color: #444;
-  margin: 0;
+.feat-body p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.57px;
+    opacity: .9;
+    color: #444;
+    margin: 0;
+    font-family: Mulish, sans-serif;
 }
 
 .feat-cards-2 .feat-body p:first-child,
 .feat-cards-3 .feat-body p:first-child,
-.feat-cards-5 .feat-body p:first-child {
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 12px;
-  opacity: 0.7;
+.feat-cards-5 .feat-body p:first-child{
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+opacity: .7;
+font-family: Mulish, sans-serif;
 }
 
 .feat-body ul {
@@ -132,8 +139,10 @@
   margin-left: 16px;
   margin-bottom: 10px;
   font-size: 16px;
-  line-height: 21px;
-  font-weight: 700;
+    line-height: 21px;
+    font-weight: 700;
+    font-family: Mulish, sans-serif;
+
 }
 
 .feat-body ul li em {
@@ -167,46 +176,45 @@
   gap: 10px;
 }
 
-.feat-line p {
-  color: #444 !important;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 15.06px;
-  margin: 0;
-  margin-left: 20px;
+.feat-line p{
+    color: #444 !important;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.06px;
+    margin: 0;
+    margin-left: 20px;
+    font-family: Mulish, sans-serif;
 }
 
-.feat-cards .button-container p {
-  padding: 10px 28px;
-  border-radius: 40px;
-  border: 0;
-  background-color: #e06336;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  z-index: 10;
-  transition: 0.3s ease-in-out;
-  position: absolute;
-  bottom: 10px;
-  left: 24%;
+.feat-cards .button-container p{
+    padding: 10px 28px;
+    border-radius: 40px;
+    border: 0;
+    background-color: #e06336;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: .3s ease-in-out;
+    position: absolute;
+    bottom: 10px;
+    left: 24%;
+ font-family: Mulish, sans-serif;
 }
 
-.feat-cards .button-container a {
-  font-weight: 700;
-  font-size: 16px;
-  color: #fff;
-  text-decoration: none;
-  transform: scale(1.02);
+.feat-cards .button-container a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+     transform: scale(1.02);
+     font-family: Mulish, sans-serif;
 }
 
 .feat-cards .button-container a:hover {
   background: transparent;
 }
 
-.ipru-features-wrapper {
-  overflow: hidden;
-  padding: 0px !important;
-}
 
 .ipru-features .owl-nav {
   display: flex;
@@ -227,6 +235,7 @@
   bottom: 21.5%;
   left: 0%;
 }
+
 .ipru-features .owl-nav button {
   position: relative;
   width: 25px;
@@ -243,6 +252,7 @@
   left: 10px;
   font-size: 25px;
 }
+
 .ipru-features .owl-dots button {
   background: #fbcdbd;
   border: none;
@@ -251,6 +261,7 @@
   width: 8px;
   height: 12px;
 }
+
 .ipru-features .owl-dots .owl-dot:disabled,
 .ipru-features .owl-dots .owl-dot.active {
   background: #e26c41 !important;
