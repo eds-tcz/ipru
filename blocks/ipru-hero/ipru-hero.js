@@ -16,7 +16,7 @@ export default function decorate(block) {
   indicatorDiv.classList.add('indicators');
 
   // Add 6 spans inside the 'indicator' div
-  for (let i = 1; i <= 6; i++) {
+  for (let i = 1; i <= 6; i += 1) {
     const span = document.createElement('span');
     span.dataset.slide = i; // Add data attribute for slide number
     span.classList.add('indicator');
