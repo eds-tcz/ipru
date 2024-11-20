@@ -19,7 +19,7 @@
   --dark-color: #505050;
   --text-color: #131313;
   --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-hover-color: #e26c41;
 
   /* fonts */
   --body-font-family: mulish, roboto-fallback, sans-serif;
@@ -275,4 +275,9 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+
+.owl-stage{
+  display: flex;
 }
