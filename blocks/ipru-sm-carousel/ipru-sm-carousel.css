@@ -1,5 +1,10 @@
 /* stylelint-disable no-descending-specificity */
 
+.ipru-sm-carousel-wrapper {
+    max-width: 100%!important;
+    margin-left: 13%!important;
+    padding: 0 !important;}
+
 .sm-carousel{
  margin-bottom: 20px;
 }
@@ -58,6 +63,7 @@
   position: relative;
   max-width: 250px;
   min-height: 58px;
+  font-family: Mulish, sans-serif;
 }
 
 .slide-cta a {
@@ -76,6 +82,7 @@
   width: max-content;
   transition: 0.3s ease-in-out;
   text-decoration: none;
+  font-family: Mulish, sans-serif;
 }
 
 .slide-cta a:hover {
@@ -98,7 +105,7 @@
 .ipru-sm-carousel .owl-nav {
   display: flex;
   justify-content: center;
-  gap: 25%;
+  gap: 10%;
   margin-top: 10px;
 }
 
