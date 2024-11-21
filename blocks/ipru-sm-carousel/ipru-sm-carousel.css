@@ -3,7 +3,9 @@
 .ipru-sm-carousel-wrapper {
     max-width: 100%!important;
     margin-left: 13%!important;
-    padding: 0 !important;}
+    padding: 0 !important;
+    overflow: hidden;
+  }
 
 .sm-carousel{
  margin-bottom: 20px;
@@ -95,11 +97,6 @@
   position: absolute;
   right: 0;
   bottom: 0;
-}
-
-.ipru-sm-carousel-wrapper {
-  overflow: hidden;
-  padding: 0 !important;
 }
 
 .ipru-sm-carousel .owl-nav {
