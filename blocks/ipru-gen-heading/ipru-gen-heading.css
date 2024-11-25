@@ -23,3 +23,35 @@
   font-family: Mulish, sans-serif;
   margin: 0;
 }
+
+/* CSS for Different Component Named "ipru-features" */
+
+.ipru-features-container .features-heading {
+  position: absolute;
+  top: 2rem;
+  max-width: 1170px;
+  margin-inline: auto;
+  width: 100%;
+  padding-top: 16px;
+}
+.ipru-features-container .features-heading h3 {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 30px;
+  width: 310px;
+  padding: 0 0 1rem 1rem;
+  color: #444;
+  margin-top: 0;
+  font-family: Mulish, sans-serif;
+}
+
+.ipru-features-container .features-heading h2 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 0 0 1rem;
+  color: #444;
+  margin-bottom: 6px !important;
+  margin-top: 0;
+  font-family: Mulish, sans-serif;
+}
