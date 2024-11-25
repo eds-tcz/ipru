@@ -35,7 +35,7 @@
   padding-top: 16px;
 }
 
-.ipru-features-container .features-heading h3 {
+.ipru-features-container .features-heading h2 {
   font-size: 26px;
   font-weight: 800;
   line-height: 30px;
@@ -46,7 +46,7 @@
   font-family: Mulish, sans-serif;
 }
 
-.ipru-features-container .features-heading h2 {
+.ipru-features-container .features-heading h3 {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;

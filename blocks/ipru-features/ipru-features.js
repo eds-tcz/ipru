@@ -78,7 +78,7 @@ loadExternalResources([
             0: { items: 1 },
             768: { items: 1 },
             992: { items: 2 },
-            1200: { items: 3.2 },
+            1200: { items: 3.5 },
           },
         });
       } catch (error) {
