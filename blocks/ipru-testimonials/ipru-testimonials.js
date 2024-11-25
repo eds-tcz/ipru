@@ -62,6 +62,8 @@ export default function decorate(block) {
     }
   });
 }
+
+// prettier-ignore
 loadExternalResources([
   {
     type: 'script',
@@ -82,7 +84,7 @@ loadExternalResources([
       try {
         // eslint-disable-next-line no-undef
         $(
-          '.ipru-testimonials-wrapper .table-main .table-main-tbody'
+          '.ipru-testimonials-wrapper .table-main .table-main-tbody',
         ).owlCarousel({
           loop: true,
           margin: 15,
