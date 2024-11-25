@@ -8,7 +8,9 @@
 .ipru-features-wrapper {
   overflow: hidden;
   padding: 0 !important;
-  margin-top: 160px!important;
+  margin-top: 170px !important;
+    max-width: 100% !important;
+    margin-left: 9% !important;
 }
 
 .ipru-features-container {
