@@ -21,8 +21,8 @@ function loadExternalResources(resources) {
           }
 
           document.head.appendChild(element);
-        }),
-    ),
+        })
+    )
   );
 }
 export default function decorate(block) {
@@ -86,7 +86,7 @@ loadExternalResources([
           },
         });
       } catch (error) {
-        console.log(error.message);
+        // console.log(error.message);
       }
     }, 0);
   });
