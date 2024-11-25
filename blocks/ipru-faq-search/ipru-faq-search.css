@@ -1,0 +1,72 @@
+/* Search Bar */
+
+.ipru-faq-search {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #e9eff5;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-search {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  margin: 20px auto;
+  width: 50%;
+  height: 56px;
+  border-radius: 100px;
+}
+
+.faq-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.faq-search button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.faq-search button img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Tags  */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.tag:hover {
+  background-color: #ffa500;
+  color: #fff;
+}
+
+.tag.active {
+  background-color: #d9534f;
+  color: #fff;
+  border-color: #d9534f;
+}
