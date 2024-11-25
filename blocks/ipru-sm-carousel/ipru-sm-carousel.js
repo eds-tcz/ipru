@@ -21,8 +21,8 @@ function loadExternalResources(resources) {
           }
 
           document.head.appendChild(element);
-        }),
-    ),
+        })
+    )
   );
 }
 
@@ -79,7 +79,7 @@ loadExternalResources([
           },
         });
       } catch (error) {
-        console.log(error.message);
+        // console.log(error.message);
       }
     }, 0);
   });
