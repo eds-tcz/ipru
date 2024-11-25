@@ -88,7 +88,7 @@
   border-spacing: 10px;
 }
 
-.card {
+.ia-card {
   width: 187px;
   background: #fafafa;
   border-radius: 14px;
@@ -99,7 +99,7 @@
   font-family: Mulish, sans-serif;
 }
 
-.card p:first-child {
+.ia-card p:first-child {
   width: 40px;
   height: 40px;
   display: flex;
@@ -110,16 +110,16 @@
   padding: 0;
 }
 
-.card p:last-child {
+.ia-card p:last-child {
   margin: 10px 0;
 }
 
-.card.active {
+.ia-card.active {
   border: 1px solid #f15a22;
   background: #fcd9bc;
 }
 
-.card img {
+.ia-card img {
   margin: 0 !important;
   display: block;
   width: 24px;

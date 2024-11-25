@@ -3,7 +3,7 @@ function callFunction() {
 
   // Named function to update the carousel
   function updateCarousel() {
-    document.querySelectorAll('.card').forEach((card, index) => {
+    document.querySelectorAll('.ia-card').forEach((card, index) => {
       card.classList.toggle('active', index === currentSlide);
     });
     document.querySelectorAll('.carousel-slide').forEach((slide, index) => {
