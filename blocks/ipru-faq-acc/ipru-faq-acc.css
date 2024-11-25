@@ -1,0 +1,58 @@
+/* stylelint-disable no-descending-specificity */
+
+.ipru-faq-acc-container{
+background-color: #ecf1f5;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+
+}
+
+.ipru-faq-acc-wrapper{
+    display: none;
+}
+
+.ipru-faq-acc-container .accordion-wrapper{
+    padding: 0!important;
+    margin: 0 !important;
+    width: 37%;
+}
+
+.ipru-faq-acc-container .accordion details {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 3.13px 18.75px 0 #9999991F;
+    padding: 10px;}
+
+   .ipru-faq-acc-container .accordion-item-label{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+   .ipru-faq-acc-container .accordion-item-label::after{
+transform: translateY(-50%) rotate(45deg)!important;
+width: 8px!important;
+height: 8px!important;
+    }
+
+   .ipru-faq-acc-container .accordion details[open] summary::after {
+    transform: translateY(-50%) rotate(135deg)!important;
+}
+
+  .ipru-faq-acc-container .accordion-item-body {
+    margin: 1rem 0;
+    padding: 10px 0;
+    border-top: 1.5px solid #eaeaea;
+    font-size: 16px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+.ipru-faq-acc-container:nth-child(3) .accordion-wrapper {
+  width: 100%!important;
+  margin: 0!important;
+ border-top: 2px solid #e06336;
+ padding-top: 30px!important;
+
+}
