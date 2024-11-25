@@ -1,0 +1,25 @@
+.ipru-faq-section-container .features-heading {
+  max-width: 1170px;
+  margin-inline: auto;
+  width: 100%;
+  padding-top: 16px;
+}
+
+.ipru-faq-section-container .features-heading h2 {
+  width: 372px;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #444;
+  padding-bottom: 10px;
+  font-family: 'Mulish';
+  margin: 0;
+}
+
+.ipru-faq-section-container .features-heading h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+  font-family: 'Mulish';
+  margin: 0;
+}
