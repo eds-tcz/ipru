@@ -1,3 +1,4 @@
+// prettier-ignore
 function loadExternalResources(resources) {
   return Promise.all(
     resources.map(
@@ -79,7 +80,7 @@ loadExternalResources([
           },
         });
       } catch (error) {
-        console.log(error.message);
+        // console.log(error.message);
       }
     }, 0);
   });

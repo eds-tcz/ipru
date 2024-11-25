@@ -1,3 +1,4 @@
+// prettier-ignore
 function loadExternalResources(resources) {
   return Promise.all(
     resources.map(
@@ -61,6 +62,8 @@ export default function decorate(block) {
     }
   });
 }
+
+// prettier-ignore
 loadExternalResources([
   {
     type: 'script',
@@ -80,7 +83,9 @@ loadExternalResources([
     setTimeout(() => {
       try {
         // eslint-disable-next-line no-undef
-        $('.ipru-testimonials-wrapper .table-main .table-main-tbody').owlCarousel({
+        $(
+          '.ipru-testimonials-wrapper .table-main .table-main-tbody',
+        ).owlCarousel({
           loop: true,
           margin: 15,
           autoHeight: true,
@@ -95,7 +100,7 @@ loadExternalResources([
           },
         });
       } catch (error) {
-        console.log(error.message);
+        // console.log(error.message);
       }
     }, 0);
   });
