@@ -1,3 +1,4 @@
+// prettier-ignore
 function loadExternalResources(resources) {
   return Promise.all(
     resources.map(
@@ -21,8 +22,8 @@ function loadExternalResources(resources) {
           }
 
           document.head.appendChild(element);
-        })
-    )
+        }),
+    ),
   );
 }
 
