@@ -10,8 +10,6 @@
  * governing permissions and limitations under the License.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 :root {
   /* colors */
   --background-color: white;
@@ -250,7 +248,7 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 0!important;
+  margin: 0 !important;
 }
 
 main > .section > div {
@@ -277,7 +275,6 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-
-.owl-stage{
+.owl-stage {
   display: flex;
 }
