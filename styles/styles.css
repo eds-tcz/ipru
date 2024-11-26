@@ -248,7 +248,7 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 0 !important;
+  margin: 0 ;
 }
 
 main > .section > div {
