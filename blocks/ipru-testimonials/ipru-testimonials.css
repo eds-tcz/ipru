@@ -1,4 +1,7 @@
 /* stylelint-disable no-descending-specificity */
+.ipru-testimonials {
+  padding-top: 20px;
+}
 
 .ipru-test-heading {
   display: flex;
