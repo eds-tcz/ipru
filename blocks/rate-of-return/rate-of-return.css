@@ -20,21 +20,20 @@
 
 .rate-of-return-cards p {
   text-align: center;
-  /* font-size: 14px; */
   letter-spacing: 0;
-  color: #444444;
+  color: #444;
   padding: 0 20px;
-  font: 14px / 18px Mulish;
+  font: 14px / 18px;
 }
 
 .rate-of-return h3 {
   background: #e0e2d3 0% 0% no-repeat padding-box;
-  font: normal normal bold 16px / 24px Mulish;
+  font: normal normal bold 16px / 24px;
   letter-spacing: 0;
-  color: #444444;
+  color: #444;
   padding: 20px 18px;
   border-radius: 10px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
   display: block;
   max-width: 525px;
 }
@@ -44,19 +43,22 @@
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 0;
-  color: #444444;
+  color: #444;
   opacity: 1;
 }
+
 .rate-of-return-points ul li {
   font-size: 14px;
 }
+
 .rate-of-return-points ul {
-  font: italic normal normal 14px / 26px Mulish;
-  color: #444444;
+  font: italic normal normal 14px / 26px;
+  color: #444;
   margin: 2px;
   padding-left: 16px;
   padding-bottom: 20px;
 }
+
 .rate-of-return-points p {
   font-size: 16px;
   margin: 0;

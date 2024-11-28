@@ -142,7 +142,7 @@
 
 .ipru-testimonials-wrapper {
   overflow: hidden;
-  padding: 0px !important;
+  padding: 0 !important;
 }
 
 .ipru-testimonials .owl-nav {
@@ -153,6 +153,7 @@
   bottom: 3%;
   left: 10.7%;
 }
+
 .ipru-testimonials .owl-dots {
   display: flex;
   justify-content: center;
@@ -161,6 +162,7 @@
   bottom: 3%;
   left: 12%;
 }
+
 .ipru-testimonials .owl-nav button {
   position: relative;
   width: 25px;
@@ -177,6 +179,7 @@
   left: 10px;
   font-size: 25px;
 }
+
 .ipru-testimonials .owl-dots button {
   background: #fbcdbd;
   border: none;
@@ -185,11 +188,12 @@
   width: 8px;
   height: 12px;
 }
+
 .ipru-testimonials .owl-dots .owl-dot:disabled,
 .ipru-testimonials .owl-dots .owl-dot.active {
   background: #e26c41 !important;
 }
 
-.ipru-testimonials .owl-height{
-   margin-bottom: 30px;
+.ipru-testimonials .owl-height {
+  margin-bottom: 30px;
 }

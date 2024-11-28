@@ -13,18 +13,9 @@
 .compound-interest-heading h2 {
   text-align: center;
   font-size: 24px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #003b6e;
   margin-bottom: 0;
-}
-
-.compound-interest-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2%;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 2.5rem;
 }
 
 .compound-interest-cards {
@@ -38,32 +29,33 @@
 
 .compound-interest-cards p {
   text-align: center;
-  /* font-size: 14px; */
-  letter-spacing: 0px;
-  color: #444444;
-  padding: 0px 20px;
-  font: 14px / 18px Mulish;
+  letter-spacing: 0;
+  color: #444;
+  padding: 0 20px;
+  font: 14px / 18px;
 }
 
 .compound-interest img {
-  position: absolute;
   top: -40px;
   left: 38%;
+  position: absolute;
 }
+
 .compound-interest h3 {
   margin-top: 3em;
   text-align: center;
   font-size: 16px;
   font-weight: bold;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #094b7f;
 }
+
 .compound-interest-1,
 .compound-interest-2,
 .compound-interest-3 {
   background-color: #fff;
   position: relative;
-  box-shadow: 0px 0px 6px #00000029;
+  box-shadow: 0 0 6px #00000029;
   border-radius: 10px;
   opacity: 1;
   width: 30%;
@@ -71,34 +63,34 @@
 }
 
 .compound-interest-heading p {
-  text-align: center;
   font-size: 16px;
   font-weight: normal;
-  letter-spacing: 0px;
-  color: #444444;
-  opacity: 1;
+  letter-spacing: 0;
+  color: #444;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .compound-interest .button-container p {
   background: #ae2b30 0% 0% no-repeat padding-box;
-  opacity: 1;
   border: none;
   text-align: center;
   border-radius: 5px;
-  padding: 6px 0px;
+  padding: 6px 0;
 }
 
 .compound-interest .button-container a {
   text-align: center;
-  font: normal normal bold 16px / 20px Mulish;
-  letter-spacing: 0px;
-  color: #ffffff;
+  font: normal normal bold 16px / 20px;
+  letter-spacing: 0;
+  color: #fff;
   text-decoration: none;
 }
+
 .compound-interest .button-container a:hover {
   color: #fff;
 }
+
 .compound-interest-button {
   width: 16%;
   margin: auto;

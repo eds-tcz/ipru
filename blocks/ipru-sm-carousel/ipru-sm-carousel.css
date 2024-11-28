@@ -1,14 +1,7 @@
 /* stylelint-disable no-descending-specificity */
 
-.sm-carousel {
-  /* display: flex;
-    flex-direction: row; */
-  /* flex-wrap: wrap; */
-}
-
 .sm-slide {
   margin-right: 20px;
-  /* width: 300px; */
   border-radius: 10px;
   padding: 2rem 1.5rem;
   position: relative;
@@ -95,7 +88,7 @@
 
 .ipru-sm-carousel-wrapper {
   overflow: hidden;
-  padding: 0px !important;
+  padding: 0 !important;
 }
 
 .ipru-sm-carousel .owl-nav {
@@ -104,6 +97,7 @@
   gap: 25%;
   margin-top: 10px;
 }
+
 .ipru-sm-carousel .owl-dots {
   display: flex;
   justify-content: center;
@@ -111,6 +105,7 @@
   margin-bottom: 12px;
   gap: 5px;
 }
+
 .ipru-sm-carousel .owl-nav button {
   position: relative;
   width: 25px;
@@ -127,6 +122,7 @@
   left: 10px;
   font-size: 25px;
 }
+
 .ipru-sm-carousel .owl-dots button {
   background: #fbcdbd;
   border: none;
@@ -135,6 +131,7 @@
   width: 8px;
   height: 12px;
 }
+
 .ipru-sm-carousel .owl-dots .owl-dot:disabled,
 .ipru-sm-carousel .owl-dots .owl-dot.active {
   background: #e26c41 !important;

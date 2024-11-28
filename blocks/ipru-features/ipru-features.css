@@ -6,7 +6,8 @@
 }
 
 .ipru-features-wrapper {
-  padding-top: 9rem !important;
+  overflow: hidden;
+  padding: 0 !important;
 }
 
 .ipru-features-container {
@@ -203,11 +204,6 @@
   background: transparent;
 }
 
-.ipru-features-wrapper {
-  overflow: hidden;
-  padding: 0px !important;
-}
-
 .ipru-features .owl-nav {
   display: flex;
   justify-content: center;
@@ -227,6 +223,7 @@
   bottom: 21.5%;
   left: 0%;
 }
+
 .ipru-features .owl-nav button {
   position: relative;
   width: 25px;
@@ -243,6 +240,7 @@
   left: 10px;
   font-size: 25px;
 }
+
 .ipru-features .owl-dots button {
   background: #fbcdbd;
   border: none;
@@ -251,6 +249,7 @@
   width: 8px;
   height: 12px;
 }
+
 .ipru-features .owl-dots .owl-dot:disabled,
 .ipru-features .owl-dots .owl-dot.active {
   background: #e26c41 !important;
