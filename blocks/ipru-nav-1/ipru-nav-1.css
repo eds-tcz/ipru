@@ -62,7 +62,7 @@
   border: none;
   outline: none;
   flex-grow: 1; /* Fills remaining space */
-  font-size: 16px;
+  font-size: 12px;
   color: #333;
   padding: 5px; /* Adjust padding as needed */
 }
@@ -153,12 +153,25 @@
 
 /* Login Button */
 .ipru-nav-login a {
-  background-color: #a92c2d;
+  background-color: #b02e30;
+  padding: 4px 15px;
+  box-shadow: 0 3px 6px #b02a3034;
   color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 8px 16px;
+  border-radius: 2px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
+  height: 29px;
   text-decoration: none;
+  font-family: Mulish, sans-serif;
+  font-weight: 400;
+}
+
+.ipru-nav-login a::before {
+  content: ''; /* Required to make the pseudo-element visible */
+  display: inline-block; /* Ensures the pseudo-element takes up space */
+  width: 16px; /* Width of the icon */
+  height: 15px; /* Height of the icon */
+  background-image: url('https://www.iciciprulife.com/content/dam/icicipru/hp-banners/home-banner/icons/Icon-circle.svg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the icon fits within the defined size */
+  margin-right: 8px;
 }
