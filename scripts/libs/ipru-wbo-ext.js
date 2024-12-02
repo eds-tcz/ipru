@@ -8,7 +8,7 @@ function changeImageSourceInStructure(parentClass, newSrc) {
   // Select the parent div with the specified class
   const parentDiv = document.querySelector(`.${parentClass}`);
   if (!parentDiv) {
-    console.error(`No element found with class "${parentClass}"`);
+    // console.error(`No element found with class "${parentClass}"`);
     return;
   }
 
@@ -17,9 +17,9 @@ function changeImageSourceInStructure(parentClass, newSrc) {
   if (imgTag) {
     imgTag.src = newSrc;
   } else {
-    console.error(
-      `No <img> tag found inside the structure of "${parentClass}"`,
-    );
+    // console.error(
+    //   `No <img> tag found inside the structure of "${parentClass}"`,
+    // );
   }
 }
 

@@ -22,6 +22,7 @@ export default function decorate(block) {
                 if (td.classList.contains('insure-card-cell')) {
                   // Find the <p> tag that contains an <a> tag
                   const targetParagraph = [...td.querySelectorAll('p')].find(
+                    // eslint-disable-next-line comma-dangle
                     (p) => p.querySelector('a')
                   );
 
@@ -69,6 +70,7 @@ export default function decorate(block) {
                 if (td.classList.contains('insure-cell')) {
                   // Find the <p> tag that contains an <a> tag
                   const targetParagraph = [...td.querySelectorAll('p')].find(
+                    // eslint-disable-next-line comma-dangle
                     (p) => p.querySelector('a')
                   );
 
