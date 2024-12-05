@@ -1,7 +1,6 @@
 .time-weighted-return-container {
   display: flex;
   justify-content: center;
-  
 }
 
 .time-weighted-return-wrapper {
@@ -25,12 +24,13 @@
   letter-spacing: 0;
   color: #444;
   padding: 0 20px;
-  font: 14px / 18px ;
+  font: 14px / 18px;
 }
 
 .time-weighted-return h3 {
   background: #eadacc 0% 0% no-repeat padding-box;
-  font: normal normal bold 16px / 24px ;
+  font-size: 16px;
+  font-family: Mulish;
   letter-spacing: 0;
   color: #444;
   padding: 20px 18px;
@@ -65,8 +65,9 @@
   margin: 0;
 }
 
-.section .default-content-wrapper p{
-  font: normal normal normal 16px / 24px ;
+.default-content-wrapper p {
+  font-size:  16px;
+  font-family: Mulish;
   letter-spacing: 0;
   color: #444;
 }
