@@ -8,6 +8,9 @@
 
 #frequently-asked-questions {
   text-align: center;
-  font: normal normal normal 30px / 20px;
+  font-size: 24px;
+  font-family: Mulish;
+  color: #003b6e;
+  font-weight: normal;
   padding: 15px;
 }
