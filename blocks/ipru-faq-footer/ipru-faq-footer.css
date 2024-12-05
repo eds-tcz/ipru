@@ -1,0 +1,33 @@
+/* stylelint-disable no-descending-specificity */
+
+.ipru-faq-footer-container{
+     background-color: #ecf1f5;
+  padding-bottom: 20px;
+  margin-top: -20px!important;
+}
+
+
+.faq-all-links{
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin-top: 14px;
+    padding: 16px;
+    color: #848484;
+    background-color: #fff;
+    text-align: left;
+    box-sizing: border-box;
+    font-size: 13px;
+    border-radius: 16px;
+}
+
+.faq-all-links a{
+        text-transform: uppercase;
+    margin-right: 2px;
+    padding-right: 5px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+    font-family: Mulish, sans-serif;
+}

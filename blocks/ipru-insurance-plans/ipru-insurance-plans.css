@@ -1,140 +1,162 @@
-.ipru-insurance-plans-container{
-    width: 100%;
-    margin: 0 auto 22px;
-    background:#fef2ed;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.ipru-insurance-plans-container {
+  width: 100%;
+  margin: 0 auto 22px;
+  background: #fef2ed;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cards-set{
-     display: flex;
-    padding: 2rem 1rem 5rem;
-    margin:1rem 10px auto 0;
-    gap: 10px;
-    justify-content: space-between;
-    padding-right: 30px;
-    padding-left: 12px;
-    width: 92%;
+.cards-set {
+  display: flex;
+  padding: 0 0 3rem;
+  margin: 1rem 10px auto -5px;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.set-a >p,
-.set-b>p{
-        font-size: 18px;
-    font-weight: 700;
-    line-height: 22px;
-    margin-left: 20px;
-    color: #444;
+.set-a > p,
+.set-b > p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-left: 20px;
+  color: #444;
+  font-family: Mulish, sans-serif;
 }
 
-.insure-table-1{
-     border-spacing:1rem;
-         border-right: 1px dotted orange;
+.insure-table-1 {
+  border-spacing: 1rem;
+  border-right: 1px dotted orange;
 }
 
-.insure-card-cell{
-    background-color: #fff;
-    border-radius: 8px;
-    border: 1px solid #e3e3e3;
-    height: 120px!important;
-    width: 140px;
-    position: relative;
-    text-decoration: none;
-    transition: .3s ease;
+.insure-card-cell {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #e3e3e3;
+  height: 120px !important;
+  width: 140px;
+  position: relative;
+  text-decoration: none;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .insure-card-cell:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 15px rgba(0 0 0 / 20%);
-
 }
 
-.insure-card-cell picture{
-    width: 31px;
-    height: 31px;
-    background: #faeeea;
-    padding: 5px;
-    border-radius: 50%;
-    margin: -15px 14px 4px 0 !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.insure-card-cell picture {
+  width: 31px;
+  height: 31px;
+  background: #faeeea;
+  padding: 5px;
+  border-radius: 50%;
+  margin: -15px 14px 4px 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.insure-card-cell p{
-    padding: 0 5px 7px 7px;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 17px;
-    color: #111;
-    width: 100px;
-    margin: 0;
-    height: 30%;
-     margin-top: 10px;
-
+.insure-card-cell p {
+  padding: 0 5px 7px 7px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #111;
+  width: 100px;
+  margin: 0;
+  height: 30%;
+  margin-top: 10px;
+  font-family: Mulish, sans-serif;
+  text-decoration: none;
 }
 
-.insure-card-cell h3{
-        background: #cfdae5;
-    border-radius: 0 0 7px 7px;
-    padding: 2px 2px 2px 5px;
-    font-size: 10px;
-    font-weight: 500;
-    color: #004a80;
-    display: flex;
-    align-items: center;
-    line-height: 16px;
-    width: 96%;
-    left: -1px;
-    margin: 0;
-    position: absolute;
-    bottom: 0;
+.insure-card-cell h3 {
+  background: #cfdae5;
+  border-radius: 0 0 7px 7px;
+  padding: 2px 2px 2px 5px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #004a80;
+  display: flex;
+  align-items: center;
+  line-height: 16px;
+  width: 96%;
+  left: -1px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  font-family: Mulish, sans-serif;
 }
 
-.insure-cell{
-    background-color: #ebf1f5;
-    border-radius: 8px;
-    border: 1px solid #004a80;
-    height: 120px!important;
-    width: 140px;
-    position: relative;
-    text-decoration: none;
-    transition: .3s ease;
-
+.insure-cell {
+  background-color: #ebf1f5;
+  border-radius: 8px;
+  border: 1px solid #004a80;
+  height: 120px !important;
+  width: 140px;
+  position: relative;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
 
-.insure-cell:hover{
-     transform: translateY(-10px);
- box-shadow: 0 10px 15px rgba(0 0 0 / 20%);
-
+.insure-cell:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0 0 0 / 20%);
 }
 
-.insure-table-2{
-    border-spacing:1rem;
+.insure-table-2 {
+  border-spacing: 1rem;
 }
 
-.insure-cell picture{
-    width: 31px;
-    height: 31px;
-    background: #004a80;
-    padding: 5px;
-    border-radius: 50%;
-    align-items: center;
-    display: flex;
-    margin-top: -15px;
-    justify-content: center;
+.insure-cell picture {
+  width: 31px;
+  height: 31px;
+  background: #004a80;
+  padding: 5px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  margin-top: -15px;
+  justify-content: center;
 }
 
-.insure-cell p{
-     padding: 0 5px 7px 7px;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 17px;
-    color: #111;
-    width: 55px;
-    margin: 0;
-    margin-top: 8px;
-    height: 30%;
+.insure-cell p {
+  padding: 0 5px 7px 7px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #111;
+  width: 55px;
+  margin: 0;
+  margin-top: 8px;
+  height: 30%;
+  font-family: Mulish, sans-serif;
+  text-decoration: none;
+}
+
+.insure-pop {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  background-color: #e06336;
+  color: #fff !important;
+  width: max-content !important;
+  padding: 3px 7px !important;
+  border-radius: 22px;
+  top: -26px;
+  position: absolute;
+  left: 7px;
+  height: auto !important;
+}
+
+.insure-card-link {
+  text-decoration: none;
+}
+
+.insure-link {
+  text-decoration: none;
 }

@@ -83,6 +83,7 @@ async function loadEager(doc) {
     decorateMain(main);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
+    window.setTimeout(() => import('./libs/ipru-hero-ext.js'), 0);
   }
 
   try {
@@ -120,7 +121,12 @@ async function loadLazy(doc) {
  */
 function loadDelayed() {
   // eslint-disable-next-line import/no-cycle
-  window.setTimeout(() => import('./libs/insure-assure-ext.js'), 3000);
+  window.setTimeout(() => import('./libs/insure-assure-ext.js'), 1000);
+  window.setTimeout(() => import('./libs/ipru-hero-ext.js'), 1000);
+  window.setTimeout(() => import('./libs/ipru-sm-carousel-ext.js'), 1000);
+  window.setTimeout(() => import('./libs/ipru-features-ext.js'), 1000);
+  window.setTimeout(() => import('./libs/ipru-testimonials-ext.js'), 1000);
+  window.setTimeout(() => import('./libs/replace-img.js'), 1000);
   window.setTimeout(() => import('./delayed.js'), 3000);
   // load anything that can be postponed to the latest here
 }
