@@ -82,14 +82,15 @@
 
 .compound-interest .button-container a {
   text-align: center;
-  font: normal normal bold 16px / 20px;
+  font-size: 16px;
+  font-family: Mulish;
   letter-spacing: 0;
   color: #fff;
   text-decoration: none;
 }
 
 .compound-interest .button-container a:hover {
-  color: #fff;
+  background: none;
 }
 
 .compound-interest-button {
