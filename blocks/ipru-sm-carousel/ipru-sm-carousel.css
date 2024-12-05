@@ -1,5 +1,4 @@
 /* stylelint-disable no-descending-specificity */
-
 .ipru-sm-carousel-wrapper {
   max-width: 100% !important;
   margin-left: 13% !important;
@@ -97,6 +96,11 @@
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.ipru-sm-carousel-wrapper {
+  overflow: hidden;
+  padding: 0 !important;
   width: auto;
 }
 

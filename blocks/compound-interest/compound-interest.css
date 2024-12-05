@@ -1,0 +1,99 @@
+.compound-interest-container {
+  background: #f3f4ec;
+  display: flex;
+  justify-content: center;
+}
+
+.compound-interest-wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px 0 14px !important;
+}
+
+.compound-interest-heading h2 {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0;
+  color: #003b6e;
+  margin-bottom: 0;
+}
+
+.compound-interest-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.compound-interest-cards p {
+  text-align: center;
+  letter-spacing: 0;
+  color: #444;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.compound-interest img {
+  top: -40px;
+  left: 38%;
+  position: absolute;
+}
+
+.compound-interest h3 {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #094b7f;
+}
+
+.compound-interest-1,
+.compound-interest-2,
+.compound-interest-3 {
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 0 6px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+  width: 30%;
+  height: 160px;
+}
+
+.compound-interest-heading p {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: #444;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.compound-interest .button-container p {
+  background: #ae2b30 0% 0% no-repeat padding-box;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px 0;
+}
+
+.compound-interest .button-container a {
+  text-align: center;
+  font: normal normal bold 16px / 20px;
+  letter-spacing: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.compound-interest .button-container a:hover {
+  color: #fff;
+}
+
+.compound-interest-button {
+  width: 16%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
