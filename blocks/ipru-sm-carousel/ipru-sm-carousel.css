@@ -1,4 +1,14 @@
 /* stylelint-disable no-descending-specificity */
+.ipru-sm-carousel-wrapper {
+  max-width: 100% !important;
+  margin-left: 13% !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.sm-carousel {
+  margin-bottom: 20px;
+}
 
 .sm-slide {
   margin-right: 20px;
@@ -54,6 +64,7 @@
   position: relative;
   max-width: 250px;
   min-height: 58px;
+  font-family: Mulish, sans-serif;
 }
 
 .slide-cta a {
@@ -72,6 +83,7 @@
   width: max-content;
   transition: 0.3s ease-in-out;
   text-decoration: none;
+  font-family: Mulish, sans-serif;
 }
 
 .slide-cta a:hover {
@@ -89,12 +101,13 @@
 .ipru-sm-carousel-wrapper {
   overflow: hidden;
   padding: 0 !important;
+  width: auto;
 }
 
 .ipru-sm-carousel .owl-nav {
   display: flex;
   justify-content: center;
-  gap: 25%;
+  gap: 10%;
   margin-top: 10px;
 }
 
@@ -135,4 +148,11 @@
 .ipru-sm-carousel .owl-dots .owl-dot:disabled,
 .ipru-sm-carousel .owl-dots .owl-dot.active {
   background: #e26c41 !important;
+}
+
+#so-what-would-you-like-to-do {
+  font-weight: 700;
+  font-size: 18px;
+  color: #3e3e3e;
+  font-family: mulish, sans-serif;
 }

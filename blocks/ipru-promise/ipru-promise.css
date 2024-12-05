@@ -1,5 +1,7 @@
 .ipru-prom-cards{
-    display:flex
+    display:flex;
+    justify-content: space-between;
+    margin: 40px 0 40px 10px;
 }
 
 .prom-card-title{
@@ -14,6 +16,7 @@
     color: #444;
     padding-bottom: 0;
     margin: 0;
+    font-family: Mulish, sans-serif;
 }
 
 .prom-card-title h2{
@@ -23,6 +26,7 @@
     width: 222px;
     color: #444;
     margin: 0;
+    font-family: Mulish, sans-serif;
 }
 
 .prom-card-data{
@@ -52,10 +56,11 @@
     margin: 0;
     text-align: center;
     height: 45%;
+    font-family: Mulish, sans-serif;
 }
 
 .prom-card-data p:last-child{
-width: 134px;
+width: 140px;
 }
 
 .prom-card-data p picture{
@@ -77,4 +82,5 @@ font-size: 18px;
     width: max-content;
     text-align: center;
     margin: 0;
+    font-family: Mulish, sans-serif;
 }
