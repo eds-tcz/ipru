@@ -40,43 +40,44 @@
     font-size: var(--body-font-size-m);
   }
 }
+
 .icici-pru-life-wrapper {
   background: #fcf5ef 0% 0% no-repeat padding-box;
   border-radius: 20px;
   padding: 1px 60px !important;
 }
 
-.icici-pru-life .icici-pru-life-list button {
-  background: #f7f7f7 0% 0% no-repeat padding-box;
-  box-shadow: 0px 0px 3px #00000029;
+.icici-pru-life-list button {
+  background: #f7f7f7;
+  box-shadow: 0 0 3px #00000029;
   border: 1px solid #c7c7c7;
   border-radius: 10px;
   width: 260px;
-  height: 90px;
+  height: 96px;
   padding: 14px 8px 14px 11px;
   cursor: pointer;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.icici-pru-life .icici-pru-life-list button p {
+.icici-pru-life-list button p {
   margin: 0;
 }
 
-.icici-pru-life .icici-pru-life-list button[aria-selected='true'] {
+.icici-pru-life-list button[aria-selected='true'] {
   background: #fcd7ba 0% 0% no-repeat padding-box;
   border: 1px solid #e08940;
 }
 
-.icici-pru-life .icici-pru-life-panel {
+.icici-pru-life-panel {
   margin-top: -1px;
   padding: 24px;
   border: 1px solid #dadada;
   margin-bottom: 40px;
 }
 
-.icici-pru-life .icici-pru-life-panel[aria-hidden='true'] {
+.icici-pru-life-panel[aria-hidden='true'] {
   display: none;
 }
 
@@ -109,7 +110,7 @@
 }
 
 .icici-pru-life-tab p:nth-of-type(1) {
-  background-color: #ffffff;
+  background-color: #fff;
   min-width: 50px;
   min-height: 49px;
   max-height: 49px;
@@ -128,28 +129,25 @@
 }
 
 .icici-pru-life-tab p:nth-of-type(3) {
-  font: normal normal normal 14px / 18px Mulish;
+  font-size: 14px;
   letter-spacing: 0px;
-  color: #444444;
-  font: normal normal normal 14px / 18px Mulish;
-  letter-spacing: 0px;
-  color: #444444;
+  color: #444;
   width: 80%;
   text-align: left;
   padding-left: 15px;
 }
 
 .icici-pru-life-panel {
-  background: #fdede2 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
-  padding: 30px 26px 30px 26px;
+  background: #fdede2;
+  box-shadow: 0 3px 6px #00000029;
+  padding: 30px 26px;
   text-align: start;
   border-radius: 20px;
 }
 
 .icici-pru-life-panel p {
   text-align: left;
-  font: normal normal normal 16px / 26px Mulish;
-  letter-spacing: 0px;
-  color: #444444;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #444;
 }
