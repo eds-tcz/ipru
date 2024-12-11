@@ -8,6 +8,13 @@ export default function decorate(block) {
       [...row.children].forEach((div, d) => {
         if (d === 0) {
           div.classList.add('tool-table');
+          const tableData = div.querySelectorAll('td');
+          tableData.forEach((td) => {
+            const para = td.querySelectorAll('p:first-child');
+            para.forEach((p) => {
+              p.classList.add('insure-click');
+            });
+          });
         }
         if (d === 1) {
           div.classList.add('tool-cta');

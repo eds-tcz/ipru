@@ -127,6 +127,9 @@ function loadDelayed() {
   window.setTimeout(() => import('./libs/ipru-features-ext.js'), 1000);
   window.setTimeout(() => import('./libs/ipru-testimonials-ext.js'), 1000);
   window.setTimeout(() => import('./libs/replace-img.js'), 1000);
+  window.setTimeout(() => import('./libs/ipru-ot-calc-ext.js'), 1000);
+  window.setTimeout(() => import('./libs/ipru-cnsi-calc-ext.js'), 1000);
+  window.setTimeout(() => import('./libs/jquery-jqChart-min.js'), 1000);
   window.setTimeout(() => import('./delayed.js'), 3000);
   // load anything that can be postponed to the latest here
 }

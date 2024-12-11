@@ -1,0 +1,3398 @@
+.ipru-cnsi {
+  display: flex; /* Ensure it's a block container */
+  width: 100%; /* Adjust as necessary */
+  min-height: 1px; /* Ensure it can expand */
+}
+
+.ipru-cnsi-calc-container {
+  width: 100%;
+  /* float: left; */
+  background: url(https://www.iciciprulife.com/content/icici-prudential-life-insurance/testing/insurance-guide/financial-planning-tools-calculators/poc-calc/images/Group%2012573.svg)
+    no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 2% 0 5% 0;
+}
+
+.mobileView {
+  display: none;
+}
+
+.disclaimer {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 100%;
+  padding: 2% 0 0 0;
+}
+.faqHead {
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-003b6e);
+
+  font: normal normal bold 24px/32px Mulish;
+  letter-spacing: 0px;
+  color: #003b6e !important;
+  opacity: 1;
+  padding: 2%, 0, 0, 2%;
+}
+
+.faq-section {
+  background: #e9eef2 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.faq-ans {
+  text-align: left;
+
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: left;
+  font: normal normal normal 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+.faq-ans li {
+  list-style-type: disc;
+  margin-left: 2%;
+  padding-bottom: 1%;
+}
+.boxactive1 {
+  border: 1px solid #ae2a30;
+  border-radius: 15px;
+  opacity: 1;
+  height: 270px;
+  padding: 0;
+  margin-top: 23px;
+}
+.faqtn {
+  text-align: left;
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: var(--unnamed-character-spacing-0);
+
+  text-align: left;
+  font: normal normal bold 16px/15px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+
+.faqtn:after {
+  content: '\2304';
+}
+.accordion-item.active .faqtn:after {
+  content: '\25B2';
+}
+.faq-content {
+  width: 60%;
+  transform: translateX(33%);
+  padding-top: 3%;
+}
+.investNow {
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+.investNowButton {
+  background: var(--unnamed-color-ae2b30) 0% 0% no-repeat padding-box;
+  background: #ae2b30 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  padding: 1% 5%;
+  border: none;
+}
+
+.youInvest,
+.youGet {
+  display: flex;
+
+  height: 73px;
+}
+.graphTop {
+  display: flex;
+}
+
+.youInvest,
+.youGet {
+  width: 295px;
+}
+
+.youInvest img {
+  width: 43px;
+  height: 43px;
+  background: transparent url('img/Group 12661.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  transform: translateY(35%);
+  border-radius: 15px 0px 0px 0px !important;
+}
+.contentClass {
+  /*display: flex;
+	justify-content: space-evenly;*/
+  float: left;
+  width: 100%;
+}
+.mobileContent {
+  display: none;
+}
+.youGet img {
+  width: 43px;
+  height: 43px;
+  background: transparent url('img/Group 12661.png') 0% 0% no-repeat padding-box;
+  transform: translateY(35%);
+}
+.youInvest {
+  background: #ffd1b3 0% 0% no-repeat padding-box;
+  border-radius: 15px 0px 0px 0px;
+  opacity: 1;
+  height: 73px;
+}
+.youGet {
+  background: transparent linear-gradient(90deg, #e7873c 0%, #e06237 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 0px 15px 0px 0px;
+  opacity: 1;
+  height: 73px;
+}
+.graphTop p {
+  height: 18px;
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-32)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: left;
+  font: normal normal 800 14px/32px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  padding: 0;
+}
+.youInvestData1 span {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-32)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: left;
+  font: normal normal bold 22px/32px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+.youInvestData1 .yearsOver {
+  position: relative;
+  top: -18%;
+  /* left: 47%;	 */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-10) / var(--unnamed-line-spacing-32)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: left;
+  font: normal normal 10px/32px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  padding: 0;
+}
+.youInvestData2 .payGetTxt1 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-32)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: left;
+  /*font: normal normal bold 24px/32px Mulish;*/
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1;
+}
+.youInvestData2 .yearsOver {
+  position: relative;
+  top: -18%;
+  left: 47%; /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-10) / var(--unnamed-line-spacing-32)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: left;
+  font: normal normal 10px/32px Mulish;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1;
+  padding: 0;
+}
+
+.investNowButton2 {
+  background: var(--unnamed-color-ae2b30) 0% 0% no-repeat padding-box;
+  background: #ae2b30 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  padding: 1% 5%;
+  border: none;
+  color: white;
+  width: 220px;
+  height: auto;
+  position: relative;
+  /* top: 31%; */
+  left: 30%;
+
+  margin-bottom: 3%;
+  text-align: center;
+  padding: 2%;
+}
+.investNowButton2 a {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-16) / var(--unnamed-line-spacing-20)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font: normal normal bold 16px/20px Mulish;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.investNow1 {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 0%;
+}
+.investNowButton1 {
+  background: var(--unnamed-color-ae2b30) 0% 0% no-repeat padding-box;
+  background: #ae2b30 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 1% 5%;
+  border: none;
+  border-radius: 5px;
+}
+.investNowButton a,
+.investNowButton1 a {
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font: normal normal bold 16px/20px Mulish;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+.investNowButton a:hover {
+  text-decoration: none;
+  color: #ffff;
+}
+.panel {
+  margin-bottom: 5px !important;
+  width: auto;
+  height: auto;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+  margin-top: 0%;
+  position: relative;
+  /* top: -4%; */
+  z-index: 8;
+}
+
+.collapsible:hover {
+  background-color: #555;
+}
+
+/*13-10-23*/
+.wrapperClass {
+  width: 100%;
+  /*float:left;*/
+
+  background: url('/content/icici-prudential-life-insurance/testing/insurance-guide/financial-planning-tools-calculators/poc-calc/images/Group\ 12573.svg')
+    no-repeat;
+
+  background-size: cover;
+  margin: 0px;
+  padding: 2% 0 5% 0;
+  z-index: 0;
+}
+.fundList {
+  background: #fff;
+  border-radius: 15px;
+  width: 98%;
+  padding: 3%;
+  position: relative;
+  top: 59px;
+  height: auto;
+  max-width: 1090px;
+}
+
+.fundList .fundListTitle {
+  width: 343px;
+
+  padding: 9px 0 9px 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 3px #00000029;
+  border: 1px solid #e9e9e9;
+  border-radius: 20px;
+
+  align-items: center;
+  /*transform: translateX(100%);*/
+  margin-top: -6%;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-16) / var(--unnamed-line-spacing-24)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  text-align: center;
+  font: normal normal bold 16px/24px Mulish;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: relative;
+  left: 33%;
+}
+.fund1,
+.fund2,
+.fund3,
+.fund4 {
+  background: #fff;
+  width: 270px;
+  height: 90px;
+  padding: 2%;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: 15px;
+  opacity: 1;
+  margin-left: 6%;
+  margin-top: 4%;
+}
+/*.fundListSlider{
+	border: 1px solid black;
+}*/
+.calculateHelpMainBody {
+  background: #f8ead6;
+  border-radius: 10px;
+  opacity: 1;
+  padding-bottom: 3%;
+}
+.calHelpAccordion {
+  margin-top: 2%;
+}
+.calculateHelpMainBody h2 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-32)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-003b6e);
+  text-align: center;
+  font: normal normal bold 24px/32px Mulish;
+  letter-spacing: 0px;
+  color: #003b6e;
+  opacity: 1;
+}
+
+.calHelp {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+    var(--unnamed-line-spacing-20) var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: center;
+  font: normal normal normal 16px/20px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+.accordionCalHelp {
+  background-color: #f8ead6;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-weight: normal;
+  transition: 0.4s;
+  border-bottom: 1px solid black;
+}
+.panel p {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
+    var(--unnamed-line-spacing-18) var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: left;
+  font: normal normal normal 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  padding: 4px;
+}
+.calculatorHelp {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.calculatorAdvantage {
+  background: #f3f4ec 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-top: 1%;
+}
+.calculatorAdvantage h2 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-32)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-003b6e);
+  text-align: center;
+  font: normal normal bold 24px/32px Mulish;
+  letter-spacing: 0px;
+  color: #003b6e;
+  opacity: 1;
+}
+.calAdvantage {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+    var(--unnamed-line-spacing-20) var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: center;
+  font: normal normal normal 16px/20px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+.speed,
+.reliability,
+.accuracy {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 0;
+  width: 30%;
+  height: 160px;
+}
+.topIcon {
+  width: 80px;
+  margin: 0 auto;
+
+  /* UI Properties */
+  background: transparent url('img/Group 12798.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: -12%;
+  margin-bottom: 12%;
+}
+.speed h3,
+.reliability h3,
+.accuracy h3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-16) / var(--unnamed-line-spacing-16)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-094b7f);
+  text-align: center;
+  font: normal normal bold 16px/16px Mulish;
+  letter-spacing: 0px;
+  color: #094b7f;
+  opacity: 1;
+  margin-top: -8%;
+}
+.speed h6,
+.reliability h6,
+.accuracy h6 {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-medium) var(--unnamed-font-size-14) /
+    var(--unnamed-line-spacing-18) var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: center;
+  font: 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  margin-top: -1px;
+  width: 100%;
+  background: none;
+}
+.accordion-item {
+  background: #ffff;
+  padding: 1%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.spacer5 {
+  float: left;
+  height: 5px;
+  width: 100%;
+}
+.spacer10 {
+  float: left;
+  height: 10px;
+  width: 100%;
+}
+.spacer15 {
+  float: left;
+  height: 15px;
+  width: 100%;
+}
+.spacer20 {
+  float: left;
+  height: 20px;
+  width: 100%;
+}
+.mainClass {
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.compoundCalcHelp {
+  background: url('/content/icici-prudential-life-insurance/insurance-guide/financial-planning-tools-calculators/poc-calc/images/calcHelp/Group\ 7001.png');
+  width: 277px;
+  height: 394px;
+}
+.highcharts-container {
+  width: 100%;
+}
+.headerClass {
+  float: left;
+  width: 100%;
+  border-bottom: 3px solid #999999;
+}
+.headerTxt {
+  float: left;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.fourClickTxt {
+  font-size: 21px;
+  text-transform: uppercase;
+  float: left;
+  line-height: 30px;
+}
+h1 {
+  float: left;
+  width: auto;
+  text-transform: uppercase;
+  color: #ae2b30;
+  font-family: ZurichBT-Bold;
+  font-size: 26px;
+  width: 100%;
+  text-align: center;
+}
+.readMoreClass {
+  color: #ae2b30;
+  text-decoration: underline;
+  font-size: 16px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.readMoreExpandTxt {
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.inputContentClass {
+  /*	background:#fff;
+	border-radius: 15px;
+	width: 45%;*/
+  float: left;
+  width: 45%;
+  background: #fff;
+  border-radius: 15px;
+  padding-bottom: 3%;
+  height: 530px;
+  padding-right: 28px;
+  padding-left: 19px;
+}
+.graphClass {
+  /*	border-radius: 15px;
+	background:#fff;
+	width: 40%;
+	padding: 0 !important;*/
+  /* float: left; */
+  width: 50%;
+  position: relative;
+  /* margin-top: -45%; */
+  margin-top: 0px !important;
+  margin-left: 50%;
+  /* height: auto; */
+  height: 530px;
+  background: #fff;
+  border-radius: 14px;
+}
+.slideDive {
+  /* float: right;
+	position:relative; */
+  margin-right: 30px;
+}
+.loadAbsdiv {
+  /* float: left; */
+  position: relative;
+  /* margin-right: -15px; */
+}
+.stepClass {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 18px;
+  position: relative;
+  padding-top: 12px;
+}
+.step-span {
+  float: left;
+  width: 100%;
+  color: #9f9f9f;
+  font-style: italic;
+  font-size: 10px;
+}
+.step-span::before {
+  display: inline-block;
+  background-color: #9f9f9f;
+  border-radius: 9999px;
+  width: 10px;
+  height: 10px;
+  opacity: 0.2;
+  content: '';
+  margin-right: 10px;
+}
+.stepClass h3 {
+  font-weight: normal;
+  font-size: 18px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-26)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: left;
+  font: normal normal 600 14px/26px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  margin: 0;
+}
+.slideDive input {
+  /*  background: transparent none no-repeat scroll 0% 0%;*/
+  max-width: 81px;
+  height: 28px;
+  line-height: 20px;
+  color: #444444;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: right !important;
+  position: relative;
+  /* top: -4px; */
+
+  /* padding: 2px 35px 4px 58px; */
+  border: 1px solid #868686;
+  /* margin-right: 34px; */
+  font-weight: bold;
+  /* margin-left: 6px; */
+}
+.investYear {
+  font: normal normal bold 14px/26px Mulish;
+  font-weight: bold;
+  max-width: 81px;
+  min-width: 81px;
+  height: 32px;
+  color: #444444;
+  border-radius: 5px;
+  font-size: 15px;
+  position: relative;
+  outline: none;
+  padding: 0px 5px;
+  padding-left: 8px;
+  border: 1px solid #868686;
+  display: flex;
+  align-items: center;
+}
+.rate-poc {
+  text-align: right;
+  padding-right: 30px;
+}
+.payGetTxt1 .rate-poc {
+  padding-right: 0px;
+}
+.youInvestData2 .payGetTxt1 {
+  position: relative;
+  top: -11px;
+  /* left: 50px; */
+}
+.rupeeSymbol,
+.rupeeSymbol2 {
+  font-size: 22px !important;
+}
+.rupeeSymbol1 {
+  font-size: 14px;
+  position: relative;
+  left: 25px;
+  top: -2px;
+  z-index: 1;
+  font-weight: bold;
+  margin-right: -2px;
+}
+.rupeeSymbol2 {
+  font-size: 14px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  font-weight: bold;
+  margin-right: 1px;
+  color: white;
+}
+
+.minus {
+  /* float: left; */
+  background: transparent
+    url('https://www.iciciprulife.com/content/icici-prudential-life-insurance/testing/insurance-guide/financial-planning-tools-calculators/poc-calc/images/Group%207059.svg')
+    no-repeat scroll 0% 0%;
+  width: 30px;
+  height: 33px;
+  position: absolute;
+  top: 7px;
+  left: -1px;
+  z-index: 999;
+  cursor: pointer;
+}
+#termInvest {
+  font-size: 10px !important;
+}
+.plus {
+  /* float: left; */
+  background: transparent
+    url('https://www.iciciprulife.com/content/icici-prudential-life-insurance/testing/insurance-guide/financial-planning-tools-calculators/poc-calc/images/Group%207058.svg')
+    no-repeat scroll 0% 0%;
+  position: absolute;
+  top: 7px;
+  right: -32px;
+  width: 30px;
+  height: 30px;
+  z-index: 999;
+  cursor: pointer;
+}
+.downArrowicon {
+  position: absolute;
+  top: 13px;
+  right: 8px;
+  width: 20px;
+}
+.pocAmtClass {
+  display: none;
+}
+.wantTo {
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+.wantToInvest {
+  padding-left: 20px;
+}
+.dropDivCon button {
+  width: 57px;
+  height: 30px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 2px #00000029;
+  box-shadow: 0px 0px 2px #00000029;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-right: 5px;
+  opacity: 1;
+  font-size: 12px;
+  padding: 1px 2px;
+  font: normal normal normal 12px/26px Mulish;
+}
+.dropDivCon #paymentTerm :nth-child(2) {
+  width: 72px;
+}
+.dropDivCon #paymentTerm :nth-child(3) {
+  width: 45px;
+}
+.dropDivCon #paymentTerm :nth-child(4) {
+  width: 42px;
+}
+.active:after {
+  content: '';
+  display: none;
+}
+
+/*Mid cap value*/
+.fundListSlider {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.box {
+  width: 270px !important;
+  max-height: 90px;
+  overflow: hidden;
+  /* UI Properties */
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box; */
+  box-shadow: 0px 3px 11px #ae2a314d;
+  /* border: 1px solid #AE2A30; */
+  border-radius: 15px;
+  opacity: 1;
+  margin: 0px 30px;
+  transition: max-height 500ms ease;
+  padding: 0;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: 15px;
+  /*&:hover {
+		box-shadow: 0 0 8px #d3d3d3;
+		cursor: pointer;
+		max-height: 250px;
+
+	  }*/
+}
+.box.activeBox {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ae2b30;
+}
+.verticleHr {
+  /* box-shadow: 0px 3px 11px #AE2A314D; */
+  opacity: 0.6;
+  width: 1px;
+  border-right: 1px solid #ae2b30;
+  height: 30px;
+  margin: 0;
+  margin-top: 1px;
+}
+
+.horizontalHr {
+  box-shadow: 0px 3px 11px #ae2a314d;
+  opacity: 1;
+  margin: 0;
+  opacity: 0.8;
+  height: 1px;
+  border-top: 1px solid #ae2b30;
+  margin: 5px 0px;
+}
+.growthFund {
+  /*display: flex;
+	justify-content:space-between;
+	transform: translateY(30px);*/
+  position: relative;
+  display: block;
+  /* padding: 0 5% 0 5%; */
+  top: 2%;
+  height: 90px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.growthFund h6 {
+  margin: 2px 0px;
+}
+.leftSide,
+.rightSide {
+  display: block;
+  padding: 0;
+}
+.rightSide span {
+  display: inline-block;
+  max-width: 50px;
+}
+.rightSide h5 {
+  margin: 2px 0px;
+}
+.growthFund p {
+  background: none;
+  border: none;
+  margin: 0;
+  font: normal normal 600 16px/22px Mulish;
+  color: #003b6e;
+}
+.growthFund .row {
+  margin: initial;
+}
+/*collapsible*/
+.reveal {
+  position: relative;
+  top: 1%;
+  /* padding: 0 5% 0 5%;	 */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 10px 17px;
+  padding-bottom: 30px;
+}
+
+.investNow {
+  width: 100%;
+  height: 46px;
+  background: #ae2a30 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 15px 15px;
+  opacity: 1;
+  margin: initial;
+  /*  position: relative;
+    left: 0;
+    top: -12px;*/
+}
+.investNow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.investNow p {
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-16) / var(--unnamed-line-spacing-20)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font: normal normal bold 16px/20px Mulish;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0;
+}
+.leftSide p,
+.rightside p {
+  font: normal normal 600 16px;
+  letter-spacing: 0px;
+  color: #003b6e;
+}
+h6 {
+  width: 45px;
+  height: 16px;
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-10) / var(--unnamed-line-spacing-16)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ae2b30);
+  text-align: center;
+  font: normal normal 600 9px/16px Mulish;
+  letter-spacing: 0px;
+  color: #ae2b30;
+  opacity: 1;
+  background: #d2d9e6 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  padding: 0px;
+}
+.topHr {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 11px #ae2a314d;
+  opacity: 0.8;
+  height: 1px;
+  border-top: 1px solid #ae2b30;
+
+  margin: 0 auto;
+  margin-top: 5px;
+  /* margin-top: 10%;
+    margin-bottom: 5%; */
+  width: 90%;
+}
+.leftData,
+.rightData {
+  padding: 0;
+}
+.leftData p .rightData p {
+  padding: 0;
+}
+.reveal .row {
+  margin: initial;
+}
+.reveal p {
+  font: normal normal normal 12px/15px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  margin: 0;
+}
+.reveal h5 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-22)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+
+  font: normal normal 600 14px/22px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  margin: 0;
+}
+.term-poc {
+  font: normal normal 10px/32px Mulish;
+}
+#FinalAmountCalc {
+  font: normal normal bold 23px/32px Mulish;
+  color: white;
+}
+.youInvestData2 p {
+  color: white;
+  margin-bottom: 3px;
+}
+.stepHeader {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  padding-left: 20px;
+}
+.years {
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444444;
+  top: 6px;
+  right: 12px;
+}
+.investForParent {
+  display: flex;
+  flex-direction: column;
+}
+.slider-wrap input[type='number'] {
+  /* float: inline-end; */
+  width: 74px;
+  height: 32px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid #868686;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  outline: 0;
+  opacity: 1;
+  border-radius: 5px;
+  position: relative;
+  /* top: -36px; */
+  text-align: left;
+  padding-left: 8px;
+  font-weight: bold;
+  color: #444444;
+}
+.dropDivCon {
+  /* position: absolute;
+    top: 59%; */
+}
+
+.inputContentClass h1 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-29) / var(--unnamed-line-spacing-37)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-a03535);
+  text-align: center;
+  font: normal normal bold 29px/37px Mulish;
+  letter-spacing: 0px;
+  color: #a03535;
+  opacity: 1;
+  margin-top: 11px;
+  margin-bottom: 18px;
+  text-transform: capitalize;
+}
+.inputContentClass h1::after {
+  display: block;
+  content: '';
+  background-color: #c1c1c1;
+  width: 435px;
+  height: 1px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.slick-prev {
+  background-image: url('/content/icici-prudential-life-insurance/insurance-guide/financial-planning-tools-calculators/poc-calc/images/FParrow.svg');
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -3%;
+  background-color: white !important;
+}
+.slick-next {
+  background-image: url('/content/icici-prudential-life-insurance/insurance-guide/financial-planning-tools-calculators/poc-calc/images/FParrowNext.svg');
+  position: absolute;
+  left: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: white !important;
+}
+/*Range slider*/
+
+.range-slider {
+  flex: 1;
+}
+.slider-wrap {
+  /* display: flex; */
+  width: 100%;
+  position: relative;
+  margin-left: 20px;
+}
+.slider-wrap .slider-range {
+  width: 420px;
+  background: transparent
+    url('https://www.iciciprulife.com/content/icici-prudential-life-insurance/insurance-guide/financial-planning-tools-calculators/poc-calc/images/slider_bg.png')
+    repeat-x scroll 0px 0px;
+  height: 2px;
+  border-radius: 5px !important;
+  border: none;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+.sliderticks,
+.sliderticks1,
+.sliderticks2 {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 435px;
+  top: 5px;
+  font: normal normal normal 12px/26px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  left: -8px;
+}
+.sliderticks1 span,
+.sliderticks2 span {
+  position: relative;
+}
+.expectRate {
+  border-bottom: none;
+}
+
+/* .sliderticks span {
+		display: flex;
+		justify-content: center;
+		width: 1px;
+		height: 25px;
+		background: #d3d3d3;
+		line-height:35px;
+	  } */
+.sliderticks span {
+  position: relative;
+}
+.sliderticks span::before,
+.sliderticks1 span::before,
+.sliderticks2 span::before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 10px;
+  background: #d3d3d3;
+  top: -10px;
+  left: 8px;
+}
+/* .sliderticks1 span {
+		display: flex;
+		justify-content: center;
+		width: 1px;
+		height: 25px;
+		background: #d3d3d3;
+		line-height: 35px;
+	  } */
+/* .sliderticks2 span {
+		display: flex;
+		justify-content: center;
+		width: 1px;
+		height: 25px;
+		background: #d3d3d3;
+		line-height: 35px;
+	  } */
+
+/*=============
+	  End tick marks
+	  =========================*/
+
+input[type='range'] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+
+  /* New additions */
+  height: 6px;
+  background: #ccc;
+  background: transparent
+    linear-gradient(90deg, var(--unnamed-color-a03535) 0%, #d77b3c 100%) 0% 0%
+    no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #a03535 0%, #d77b3c 100%) 0% 0%
+    no-repeat padding-box;
+
+  opacity: 1;
+  height: 2px;
+}
+
+/* Thumb: webkit */
+input[type='range']::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  height: 25px;
+  width: 25px;
+  background: url(/content/icici-prudential-life-insurance/testing/insurance-guide/financial-planning-tools-calculators/poc-calc/images/Ellipse1266.svg)
+    no-repeat center;
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: 0.2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type='range']::-moz-range-thumb {
+  height: 25px;
+  width: 25px;
+  background-color: #f50;
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: 0.2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type='range']::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(255, 85, 0, 0.1);
+}
+input[type='range']:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+}
+input[type='range']:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+input[type='range']::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(255, 85, 0, 0.1);
+}
+input[type='range']:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+}
+input[type='range']:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+}
+
+/*=============
+	  Aesthetics
+	  =========================*/
+
+/* body {
+  font-family: system-ui;
+} */
+
+h1 {
+  color: #4b4949;
+  text-align: center;
+}
+
+.wrapper {
+  color: #4b4949;
+  background: #f50;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 8rem;
+  width: 80%;
+  background: #fff;
+  padding: 0px 10px;
+}
+
+.value {
+  font-size: 26px;
+  width: 50px;
+  text-align: center;
+}
+
+/*End of Range slider*/
+
+/*select box css changes*/
+.custom-class1 .selectBox-label {
+  padding-top: 5px;
+}
+
+.redirect-class {
+  display: flex;
+  justify-content: center;
+}
+
+.redirect-class a {
+  background-color: #b02a30 !important;
+  color: #fff;
+  padding: 1% 5%;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.mobileH1 {
+  display: none;
+}
+.calculatorAdvantageMobile {
+  display: none;
+}
+.inputContentClassMobile {
+  display: none;
+}
+.fundListSliderMobile {
+  display: none;
+}
+.accordionButton {
+  display: flex;
+}
+.arrowImage {
+  position: relative;
+  right: 2%;
+  /*background-image: url('/poc-calc/images/Path 26120.svg') no-repeat;*/
+}
+
+.panel-title > a:before {
+  float: right !important;
+  font-family: FontAwesome;
+  content: '\f068' !important;
+  padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+  float: right !important;
+  content: '\f067' !important;
+}
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus {
+  text-decoration: none;
+}
+.accordion-button {
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+  opacity: 1;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+}
+.accordion-button:hover {
+  background: none;
+  border-radius: 10px;
+  opacity: 1;
+  border-radius: 0;
+}
+.accordion-button:active {
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+  opacity: 1;
+  border-radius: 0;
+}
+.accordion-item {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.accordion-collapse {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+}
+.calculatorHelp .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  transform: scale(0.7) !important;
+}
+.calculatorHelp .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+.faq {
+  margin: 0 auto;
+}
+.faq h2 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-32)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-003b6e);
+  text-align: center;
+  font: normal normal bold 24px/32px Mulish;
+  letter-spacing: 0px;
+  color: #003b6e;
+  opacity: 1;
+}
+.faqDiv {
+  margin: 0 auto;
+}
+.faqDiv .faqQuestion {
+  margin-bottom: 20px;
+}
+.faqDiv button {
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px !important;
+}
+.frequentlyAskedQuestion {
+  background: #e9eef2;
+  padding-bottom: 2%;
+}
+.faqQuestion {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  opacity: 1;
+  border: none;
+  height: auto;
+}
+.faqQuestion h2 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-16) / var(--unnamed-line-spacing-15)
+    var(--unnamed-font-family-mulish);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-444444);
+  text-align: left;
+  font: normal normal 16px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+.frequentlyAskedQuestion .accordion-button {
+  border: none;
+  font-size: 16px;
+}
+.frequentlyAskedQuestion .accordion {
+  padding: 2% 0;
+}
+.frequentlyAskedQuestion ul {
+  list-style: disc;
+  margin: 15px;
+}
+.card-body {
+  padding: 2%;
+  font-size: 14px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: none !important;
+  background-color: none !important;
+  box-shadow: none !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion {
+  --bs-accordion-active-bg: none !important;
+}
+.accordion {
+  --bs-accordion-btn-focus-border-color: black;
+}
+.slideDive input {
+  text-align: center;
+}
+
+/* nitin-21-02 */
+
+.highcharts-tooltip path {
+  fill: #fff;
+  stroke: rgb(5, 60, 109);
+}
+.highcharts-container {
+  z-index: 1 !important;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*graph*/
+#container {
+  height: 400px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  min-width: 310px;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.mobileImage {
+  display: block;
+}
+
+/*------------show more*/
+.ty-compact-list {
+  padding: 5px 5px 5px 0px;
+  float: left;
+  width: 100%;
+}
+.show-more {
+  display: none;
+  cursor: pointer;
+}
+.fundListMobile {
+  display: none;
+}
+
+.show-more {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  /* top: 25px; */
+  /* left: 39%; */
+  background-color: #ae2b30;
+  border-radius: 16px;
+  height: 44px;
+  padding: 6px 10px;
+  color: white;
+  width: 220px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font: normal normal normal 16px / 20px Mulish;
+  /* margin: 0 5px 0 5px; */
+  margin: 0 auto;
+}
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  font-weight: bold !important;
+}
+.accordion-button.collapsed {
+  color: black !important;
+  font-weight: normal !important;
+}
+
+/*------------------- Hrushi-css-revamp-2606 -------*/
+.stepsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stepsToUse {
+  background: #fcf5ef 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 35px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.stepsToUse h2 {
+  text-align: center;
+  font: normal normal bold 24px / 32px Mulish;
+  letter-spacing: 0px;
+  color: #003b6e;
+  opacity: 1;
+  margin-bottom: 19px;
+}
+.stepsToUse span {
+  text-align: center;
+  font: normal normal normal 16px/24px Mulish;
+  color: #444444;
+}
+.stepsCardParent {
+  padding-top: 53px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  position: relative;
+}
+.stepsCard {
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 3px #00000029;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  min-width: 220px;
+  max-width: 220px;
+  padding: 14px 8px 14px 11px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+.stepsCard div {
+  display: flex;
+  flex-direction: column;
+}
+.stepsCard div span {
+  display: block;
+  text-align: left;
+  font: normal normal normal 10px/20px Mulish;
+  color: #b02a30;
+}
+.stepsCard h3 {
+  font: normal normal normal 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  margin: 0;
+}
+.stepsCard.selected h3 {
+  font: normal normal bold 14px/18px Mulish;
+}
+.mobile-arrows {
+  display: none;
+}
+.stepsCard img {
+  width: 27px;
+  height: 27px;
+}
+.stepsCard .stepsimg {
+  background-color: #ffffff;
+  min-width: 50px;
+  min-height: 49px;
+  max-height: 49px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow1,
+.arrow2,
+.arrow3 {
+  position: absolute;
+}
+.arrow1 {
+  top: 20px;
+  left: 100px;
+}
+.arrow2 {
+  top: 20px;
+  right: 120px;
+}
+.arrow3 {
+  bottom: -30px;
+  left: 350px;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+.stepsCardParent .stepsCard.selected {
+  background: #fcd7ba 0% 0% no-repeat padding-box;
+  border: 1px solid #e08940;
+}
+.triangle {
+  height: 0;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 33px solid #fdede2;
+  position: relative;
+  left: -38%;
+}
+.stepsCardDescriptionParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 43px;
+  background: #fdede2 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  width: 970px;
+  padding: 30px 26px 30px 26px;
+  text-align: start;
+  border-radius: 20px;
+}
+.stepsCardDescriptionParent img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.stepsCardDescriptionParent .stepsCardDescription .Description {
+  text-align: left;
+  font: normal normal normal 16px/26px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+}
+
+.rateOfreturn {
+  background: #f3f4ec 0% 0% no-repeat padding-box;
+}
+.rateOfreturn h2 {
+  text-align: center;
+  font: normal normal bold 24px / 32px Mulish;
+  letter-spacing: 0px;
+  color: #003b6e;
+  opacity: 1;
+  margin-top: 35px;
+}
+.rateOfreturn span:nth-child(2) {
+  font: normal normal normal 16px/24px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+}
+.rateOfreturn span:nth-child(3) {
+  font: normal normal normal 16px/24px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  display: block;
+  margin-top: 25px;
+}
+.rateOfreturn span:nth-child(4) {
+  background: #e0e2d3 0% 0% no-repeat padding-box;
+  font: normal normal bold 16px/24px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  padding: 20px 18px;
+  border-radius: 10px;
+  margin: 20px 0px 20px 0px;
+  display: block;
+  max-width: 570px;
+}
+.rateOfreturn div {
+  font: italic normal normal 14px/26px Mulish;
+  color: #444444;
+}
+.rateOfreturn div span:first-child {
+  font: normal normal 600 16px/26px Mulish;
+}
+.rateOfreturn div ul li {
+  list-style-type: initial;
+  margin-left: 15px;
+}
+.rateOfreturn div ul li::marker {
+  color: #b1b1b1;
+}
+.rateOfreturn .container {
+  padding-bottom: 24px;
+}
+
+.TimeWeighted {
+  background: #fcf5ef 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 0px 60px;
+  position: relative;
+}
+.TimeWeighted h2 {
+  text-align: center;
+  font: normal normal bold 24px / 32px Mulish;
+  letter-spacing: 0px;
+  color: #003b6e;
+  opacity: 1;
+  margin-top: 35px;
+}
+.TimeWeighted span:nth-child(2) {
+  font: normal normal normal 16px/24px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+}
+.TimeWeighted span:nth-child(3) {
+  background: #eadacc 0% 0% no-repeat padding-box;
+  font: normal normal bold 16px/24px Mulish;
+  letter-spacing: 0px;
+  color: #444444;
+  padding: 20px 18px;
+  border-radius: 10px;
+  margin: 20px 0px 20px 0px;
+  display: block;
+  max-width: 570px;
+}
+
+.TimeWeighted div {
+  font: italic normal normal 14px/26px Mulish;
+  color: #444444;
+}
+.TimeWeighted div span:first-child {
+  font: normal normal 600 16px/26px Mulish;
+}
+.TimeWeighted div ul li {
+  list-style-type: initial;
+  margin-left: 15px;
+}
+.TimeWeighted div ul li::marker {
+  color: #b1b1b1;
+}
+.TimeWeighted.container {
+  padding-bottom: 24px;
+}
+
+.highcharts-yaxis text,
+.highcharts-xaxis text {
+  font: normal normal 12px/17px Mulish !important;
+  color: #909090 !important;
+}
+.highcharts-yaxis-labels text,
+.highcharts-xaxis-labels text {
+  font: normal normal normal 10px/17px Mulish !important;
+  color: #909090 !important;
+}
+.compound-divider {
+  background-color: #c1c1c1;
+  width: 425px;
+  height: 1px;
+  margin-bottom: 17px;
+}
+/*------------------- Hrushi-css-2606 -------*/
+/*.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}*/
+/*-------------------Mobile 28-11-23-------*/
+
+@media only screen and (min-width: 360px) and (max-width: 600px) {
+  .arrow1 {
+    background: url(/content/icici-prudential-life-insurance/insurance-guide/financial-planning-tools-calculators/poc-calc/images/Path\ 28254.svg)
+      no-repeat;
+    position: relative;
+    top: -32px;
+    left: 120%;
+    height: 15px;
+    z-index: 19;
+  }
+  .rightSide {
+    width: 36% !important;
+  }
+  .mobileImageDiv {
+    display: none;
+  }
+  .disclaimer {
+    display: block;
+  }
+  .youInvestData1 {
+    margin-left: 10%;
+  }
+  .mobileImage {
+    display: none;
+  }
+  .rupeeSymbol2 {
+    font-size: 18px !important;
+  }
+  .youInvestData1 .yearsOver {
+    font-size: 12px;
+    left: 0;
+  }
+  .contentClass {
+    display: block;
+  }
+  .graphTop p {
+    margin-bottom: 0;
+  }
+  .highcharts-root {
+    width: 100%;
+  }
+
+  .compoundCalcHelp {
+    background: url('/content/icici-prudential-life-insurance/insurance-guide/financial-planning-tools-calculators/poc-calc/images/Group\ 7039.png');
+    width: 319px;
+    height: 272px;
+    margin: 0 auto;
+  }
+  .highcharts-container {
+    position: absolute;
+    width: 100%;
+    height: auto !important;
+  }
+
+  .inputContentClass,
+  .graphClass {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    padding-bottom: 5%;
+  }
+
+  .graphClass {
+    border: 1px solid #e06336;
+    border-radius: 16px;
+    margin-top: 5%;
+  }
+  .highcharts-container {
+    height: auto;
+    top: 100px;
+  }
+  .graphTop {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+  }
+  #jqChart {
+    width: 80%;
+    transform: translateX(25px);
+    overflow: visible !important;
+    height: 56%;
+    /* position: relative; */
+    /* top: -9%; */
+    margin-top: 3%;
+  }
+  .youInvest img {
+    width: 38px;
+    height: 38px;
+  }
+  .youGet img {
+    width: 38px;
+    height: 38px;
+  }
+
+  #youInvestData1 {
+    font-size: 18px !important;
+  }
+  .rupeeSymbol {
+    font-size: 13px !important;
+  }
+  #FinalAmountCalc {
+    font: normal normal bold 18px Mulish;
+  }
+  .redirect-class {
+    margin-top: 30%;
+    left: 20%;
+  }
+  .graphTop p {
+    margin-bottom: 5px;
+  }
+  .youInvestData2 .payGetTxt1 {
+    left: 0;
+    top: -6px;
+    left: 0px;
+  }
+  .youInvestData2 span {
+    color: white;
+  }
+  .fundList {
+    top: 40px;
+  }
+  .wrapperClass {
+    padding-bottom: 15%;
+    background: #f3f4ec;
+  }
+  .dropDivCon {
+    top: 65%;
+    z-index: 5;
+  }
+  .fundList h3 {
+    left: 27%;
+    top: -3%;
+    width: 40%;
+  }
+  .leftSide {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: auto 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  .rightside {
+    display: block;
+    width: 35%;
+  }
+  .forwardArrow {
+    background: url('/poc-calc/images/Path\ 26123.svg') no-repeat;
+    margin: auto 0;
+    width: 6px;
+    height: 13px;
+  }
+  .leftSide p {
+    font-size: 14px !important;
+  }
+  h6 {
+    margin: 0;
+  }
+  .leftData,
+  .rightData {
+    width: 48%;
+  }
+  .col-md-1 {
+    width: 4%;
+    padding: 0;
+  }
+  .investNow {
+    width: 100%;
+    left: 0;
+    top: 14px;
+    margin-top: 3%;
+    border-radius: 0px 0px 5px 5px;
+    opacity: 1;
+  }
+  .topHr {
+    margin-top: 4%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .box {
+    padding: 0;
+    min-width: 318px !important;
+    width: initial !important;
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    height: 76px;
+    margin: 5px 5px;
+    margin-bottom: 20px;
+
+    border: none;
+
+    &:hover {
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #ae2b30;
+      box-shadow: 0 0 8px #d3d3d3;
+      cursor: pointer;
+      max-height: 250px;
+    }
+  }
+  .rightSide span {
+    display: inline-block;
+    max-width: 100px;
+    margin-bottom: 13px;
+  }
+
+  .fundListMobile h3 {
+    width: 299px;
+    height: 43px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 3px #00000029;
+    border: 1px solid #e9e9e9;
+    border-radius: 22px;
+    opacity: 1;
+    text-align: center;
+    margin: -5% auto 0;
+
+    line-height: 40px;
+    font-size: 16px;
+  }
+  .growthFund {
+    /* top: 6%; */
+    padding: 0 5% 0 5%;
+  }
+  .reveal {
+    padding: 0 5% 0 5%;
+  }
+  .horizontalHr {
+    margin: 5% 0 6% 0%;
+  }
+
+  .calculatorAdvantageMobile {
+    display: block;
+    background: #f3f4ec;
+    padding-bottom: 5%;
+  }
+  .calculatorAdvantageMobile h2 {
+    font-size: 18px;
+    color: #204a7b;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  .calculatorAdvantageMobile .calAdvantage {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
+      var(--unnamed-line-spacing-20) var(--unnamed-font-family-mulish);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-444444);
+    text-align: center;
+    font: normal normal normal 14px/20px Mulish;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+  }
+  .calculatorAdvantageMobile .investNow2 {
+    width: 318px;
+    height: 40px;
+    /* UI Properties */
+    background: #ae2a30 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .investNow2 a {
+    line-height: 30px;
+  }
+  .calculatorAdvantage {
+    display: none;
+    overflow: hidden;
+  }
+  .calcAdvantageSlider {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .calculatorAdvantageMobile > .speed,
+  .reliability,
+  .accuracy {
+    width: 13%;
+    margin: 5%;
+  }
+  .faq-content {
+    width: 100%;
+    transform: translateX(0%);
+  }
+  .inputContentClass h1 {
+    font-size: 18px;
+  }
+  .speed,
+  .reliability,
+  .accuracy {
+    margin: 4% 1% 5% 1%;
+    height: 150px;
+    width: 250px;
+  }
+  .topIcon {
+    width: 50px;
+    margin-top: -11%;
+    margin-bottom: 5%;
+  }
+  .speed h3,
+  .reliability h3,
+  .accuracy h3 {
+    font-size: 16px;
+    margin: 7px auto 5px;
+  }
+  .speed h6,
+  .reliability h6,
+  .accuracy h6 {
+    font-size: 14px;
+  }
+  .slick-dots li button::before {
+    font-size: 20px !important;
+    color: #979390 !important;
+    opacity: 0.7;
+  }
+
+  .slick-dots li.slick-active button::before {
+    color: #e06435 !important;
+    opacity: 1;
+  }
+  .slick-dots {
+    top: 87%;
+    left: 0;
+  }
+  .fundList {
+    display: none;
+  }
+  .fundListMobile {
+    display: block;
+    background: #ffff;
+    width: 90%;
+    border-radius: 16px;
+    margin-top: 15%;
+    padding-bottom: 10%;
+    margin: 30px 15px 0px 15px;
+  }
+
+  .inputContentClass {
+    display: none;
+  }
+  .inputContentClassMobile {
+    display: block;
+  }
+  .stepClass {
+    padding: 12px 0px;
+  }
+  .inputValues {
+    float: right;
+    width: auto;
+    height: 35px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #c2c2c2;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: -12%;
+  }
+  .inputContentClassMobile {
+    width: 90%;
+    height: 390px;
+    margin: 0 auto;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #e06336;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 16px;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    text-indent: 1px;
+    text-overflow: '';
+  }
+  select::-ms-expand {
+    display: none;
+  }
+  select.inputValues {
+    background-image: url(/content/icici-prudential-life-insurance/testing/insurance-guide/financial-planning-tools-calculators/poc-calc/images/Path\ 28249.svg);
+
+    background-position: calc(100% - 5px) calc(1em + -3px) !important;
+    background-size: 15px !important;
+    background-repeat: no-repeat;
+    width: 159px;
+    font-size: 14px;
+    padding-left: 9px;
+    padding-right: 27px;
+    text-align: left;
+  }
+  #investValRateMb {
+    width: 70px;
+  }
+
+  select.inputValues:focus {
+    background-position: calc(100% - 15px) 1em;
+
+    background-size: 15px;
+    background-repeat: no-repeat;
+    border-color: #e1863b;
+    outline: 0;
+  }
+  .mobileH1 {
+    display: block;
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) var(--unnamed-font-size-18) /
+      var(--unnamed-line-spacing-37) var(--unnamed-font-family-mulish);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-a03535);
+    text-align: left;
+    font: normal normal bold 18px/37px Mulish;
+    letter-spacing: 0px;
+    color: #a03535;
+    opacity: 1;
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    float: none;
+    text-transform: none;
+  }
+  .fundListSliderMobile {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dropDivCon button {
+    margin-right: 0px;
+    padding: 1px 0px;
+  }
+
+  #paymentTerm1 {
+    display: block;
+  }
+  .flexClass1 {
+    display: flex;
+  }
+  h6 {
+    width: 49px;
+    padding: 0 5px;
+  }
+  .dropDivCon {
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+}
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .dropDivCon button {
+    margin-right: 1%;
+
+    font-size: 10px !important;
+
+    width: 80px;
+  }
+  .investNow {
+    margin-top: 5%;
+  }
+}
+@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .dropDivCon button {
+    margin-right: 1%;
+
+    font-size: 10px !important;
+    width: 75px !important;
+    padding: 1px 0 !important;
+  }
+  .investNow {
+    margin-top: 6%;
+  }
+}
+/*@media only screen and (min-device-width: 360px) and (max-device-height: 740px) and (-webkit-device-pixel-ratio: 3) {
+	.dropDivCon button{
+		margin-right:1%;
+
+  font-size: 10px !important;
+
+
+	}
+
+}*/
+@media only screen and (min-device-width: 430px) and (max-device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+  .dropDivCon button {
+    margin-right: 1%;
+
+    font-size: 10px !important;
+
+    width: 83px;
+  }
+}
+@media only screen and (min-width: 601px) and (min-width: 1024px) {
+  .disclaimer {
+    display: block;
+  }
+  .mobileImage {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .disclaimer {
+    display: block;
+  }
+  .mobileImage {
+    display: block;
+  }
+}
+
+.navbar {
+  display: block !important;
+}
+
+.compCode {
+  position: absolute;
+  bottom: -35px;
+  font-size: 14px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .rateOfreturn h2,
+  .TimeWeighted h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .TimeWeighted span:nth-child(2),
+  .rateOfreturn span:nth-child(2),
+  .rateOfreturn span:nth-child(3),
+  .TimeWeighted span:nth-child(3) {
+    font: normal normal normal 14px/20px Mulish;
+  }
+
+  .rateOfreturn span:nth-child(4) {
+    font: normal normal bold 14px/20px Mulish;
+  }
+  .rateOfreturn div,
+  .TimeWeighted div {
+    font: italic normal normal 13px/26px Mulish;
+    color: #444444;
+  }
+  .rateOfreturn div span:first-child,
+  .TimeWeighted div span:first-child {
+    font: normal normal 600 14px/26px Mulish;
+  }
+  .rateOfreturn span:nth-child(4) {
+    padding: 10px 8px;
+  }
+
+  .TimeWeighted {
+    background: #fcf5ef 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    margin: 40px 13px 40px 13px;
+
+    padding: 0px 13px;
+    width: initial;
+  }
+  .TimeWeighted span:nth-child(3) {
+    padding: 10px 8px;
+    font-weight: bold;
+  }
+  .compCode {
+    position: absolute;
+    bottom: -30px;
+    font-size: 12px !important;
+  }
+  .stepsToUse {
+    margin: 0;
+    padding: 0px 13px;
+    max-width: 100%;
+    margin: 40px 13px 30px 13px;
+    width: initial;
+  }
+  .stepsToUse h2 {
+    max-width: 294px;
+    font: normal normal bold 15px/20px Mulish;
+    margin-top: 30px;
+  }
+  /* .stepsCardParent{
+	overflow-x: scroll;
+	max-width: 100%;
+} */
+  .arrow1,
+  .arrow2,
+  .arrow3 {
+    display: none;
+  }
+  .stepsToUse span {
+    text-align: center;
+    color: #444444;
+    font: normal normal normal 14px/20px Mulish;
+    max-width: 258px;
+  }
+  .stepsCardParent {
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    position: relative;
+    max-width: 300px;
+    overflow: auto;
+  }
+
+  .stepsCard {
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 10px;
+    font: normal normal bold 13px/18px Mulish;
+    letter-spacing: 0px;
+    color: #444444;
+    padding: 15px 11px 15px 11px;
+    gap: 8px;
+    position: relative;
+  }
+  .stepsCard::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    right: -20px;
+    border-bottom: 2px dashed #e08940;
+    bottom: 40px;
+  }
+  .stepsCard:nth-child(7)::after {
+    display: none;
+  }
+
+  .stepsCard .stepsimg {
+    background-color: #ffffff;
+    min-width: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stepsCard img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .stepsCardDescriptionParent {
+    max-width: calc(100% - 13px);
+    width: 100%;
+    margin: 30px 13px 0px 13px;
+    padding: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #f8e6d7 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+  }
+  .mobile-arrows {
+    display: flex;
+    margin: 20px;
+    gap: 5px;
+  }
+  .mobile-arrows img {
+    width: 27px;
+    height: 27px;
+  }
+  .desktop-prev,
+  .desktop-next {
+    display: none;
+  }
+  .triangle {
+    display: none;
+  }
+
+  .stepsCard h3 {
+    font: normal normal normal 13px/14px Mulish;
+    letter-spacing: 0px;
+    color: #444444;
+    margin: 0;
+  }
+  .stepsCard.selected h3 {
+    font: normal normal bold 13px/13px Mulish;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .inputContentClassMobile {
+    height: 343px !important;
+    margin-bottom: 20px;
+  }
+  .inputContentClassMobile .step-span::before {
+    display: none;
+  }
+  .slideDive input {
+    text-align: center !important;
+  }
+  .step1Mob {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .step-span {
+    float: none;
+  }
+  .plus,
+  .minus {
+    display: none;
+  }
+  .loadAbsdiv {
+    width: 159px;
+    max-width: 159px;
+  }
+  #investValAmt1 {
+    border: 1px solid #c2c2c2;
+    border-radius: 8px;
+    height: 30px;
+    max-width: initial;
+    max-width: 120px;
+    font: normal normal 600 16px/26px Mulish;
+    letter-spacing: 0px;
+    color: #444444;
+    text-align: left !important;
+    padding-left: 30px;
+  }
+  .rupeeSymbol1 {
+    position: absolute;
+    font: normal normal 600 16px/26px Mulish;
+    letter-spacing: 0px;
+    color: #444444;
+    top: 2px;
+    left: 5px;
+  }
+  .inputContentClassMobile {
+    padding: 0px 13px;
+  }
+  .slideDive {
+    margin-right: initial;
+  }
+  .dropDivCon button {
+    width: 73px;
+    height: 30px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 2px #00000029;
+    box-shadow: 0px 0px 2px #00000029;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-right: 5px;
+    opacity: 1;
+    font-size: 12px;
+    padding: 1px 2px;
+    font: normal normal normal 14px/26px Mulish;
+  }
+  #paymentTerm1 button:nth-child(2) {
+    width: 85px;
+  }
+  #paymentTerm1 button:nth-child(3) {
+    width: 60px;
+  }
+  #paymentTerm1 button:nth-child(4) {
+    width: 45px;
+  }
+  .graphClass {
+    height: initial;
+  }
+}
+
+/* Different CSS File Check  */
+
+#content {
+  overflow: hidden;
+  width: 100%;
+  margin: 0px auto;
+  max-width: 980px;
+  min-width: 320px;
+}
+.red-text {
+  color: #b02a30;
+}
+.red-btn {
+  background: #b02a30;
+  color: #ffffff;
+}
+.light-red-text {
+  color: #ffffff;
+  background: #b12c30;
+}
+.btn:hover {
+  color: #ffffff;
+}
+/* ---------------------- calculator form css : start  ----------------------*/
+
+.cal-form-container {
+  background: #9f2e33;
+  color: #ffffff;
+  padding: 45px 16px;
+  overflow: hidden;
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+  min-height: 300px;
+}
+.cal-form-container form {
+  float: left;
+  width: 100%;
+}
+.cal-form-container label {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-bottom: 12px;
+  font-family: 'ZurichCNBT';
+  font-weight: normal;
+}
+.cal-form-container input {
+  background: #9f2e33 none repeat scroll 0 0;
+  border: 1px solid #e2c1c2;
+  clear: both;
+  color: #ffffff;
+  float: left;
+  font-family: 'ZurichCNBT';
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  margin-bottom: 10px;
+  padding: 9px 15px;
+  width: 96%;
+}
+.cal-form-container input:focus {
+  border-color: #e2c1c2;
+}
+.cal-form-container button {
+  background: #b05458;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  border: none;
+  padding: 15px 0;
+  font-family: 'ZurichCNBT';
+  font-weight: normal;
+  cursor: pointer;
+}
+/* ---------------------- call me button css : start  ----------------------*/
+
+.contact-link-cont {
+  background: #0b273c;
+  height: 35px;
+  width: 100%;
+  overflow: hidden;
+}
+.contact-link-cont a {
+  background: #154466 url('../images/sprite.png') no-repeat scroll 92px 8px;
+  color: #ffffff;
+  float: right;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 11px 30px 11px 10px;
+}
+/* ---------------------- calculator graph css : start  -----------------------*/
+
+.calc-graph-container,
+.cal-cont {
+  background: #ffffff;
+  overflow: hidden;
+}
+.cal-cont h2 {
+  font-size: 24px;
+  line-height: 20px;
+  font-family: 'ZurichCNBT';
+  font-weight: 700;
+  color: #232323;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+  display: block;
+}
+.cal-cont h2 span {
+  text-transform: lowercase;
+  color: #666666;
+  font-size: 18px;
+  line-height: 17px;
+  display: block;
+  font-weight: 300;
+}
+.calc-graph-container .btn {
+  border: medium none;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 8px 24px 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.calc-graph-container .row {
+  position: relative;
+}
+.calc-details-cont .btn {
+  margin-top: 8px;
+}
+.calc-graph-container .view-btn {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  padding: 1px 8px;
+  color: #000;
+  font-size: 11px;
+  line-height: 13px;
+}
+.calc-graph-container h3 {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.calc-graph-container h4 {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.cal-calculated-details {
+  text-align: center;
+  padding: 24px 0px 16px 0px;
+}
+.cal-calculated-details p {
+  font-size: 20px;
+  line-height: 18px;
+  color: #484848;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
+.cal-calculated-details label {
+  font-size: 18px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.cal-calculated-details .cal-val {
+  font-size: 30px;
+  line-height: 32px;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.cal-calculated-details .cal-val .rupee-icon {
+  display: inline-block;
+  font-size: 20px;
+  height: 18px;
+  line-height: 22px;
+  margin-right: 5px;
+  text-indent: -9999px;
+  width: 10px;
+}
+.calc-details-cont {
+  border-top: 3px solid #e36c25;
+  padding: 10px 22px;
+  background: #ececec;
+  overflow: hidden;
+}
+.calc-details-cont .colOne {
+  float: left;
+  margin-right: 20px;
+  width: 305px;
+}
+.calc-details-cont .colTwo {
+  overflow: hidden;
+}
+.calc-details-cont .desc {
+  font-size: 15px;
+  line-height: 16px;
+  margin-bottom: 22px;
+  text-align: center;
+  color: #666 !important;
+}
+.calc-details-cont .colOne .img-cont {
+  width: 100%;
+  text-align: center;
+}
+.calc-details-cont .img-cont img {
+  width: auto;
+}
+.calc-sub-details-cont {
+  /*overflow: hidden;*/
+}
+.calc-sub-details-cont ul {
+  float: left;
+  width: 102%;
+  *width: 100%;
+}
+.calc-sub-details-cont > ul li {
+  float: left;
+  margin-right: 18px;
+  width: 49%;
+}
+.calc-sub-details-cont ul li.last {
+  margin-right: 0%;
+  width: 49%;
+}
+.calc-sub-details-cont .img-cont {
+  float: left;
+  width: 140px;
+  margin: 0 15px 10px 0;
+}
+.calc-sub-details-cont .img-cont img {
+  width: 100%;
+}
+.calc-sub-details-cont .desc-cont p {
+  font-size: 11px;
+  line-height: 13px;
+  margin-bottom: 6px;
+}
+.calc-sub-details-cont .link-cont {
+  display: block;
+}
+.calc-sub-details-cont .link-cont ul {
+  float: left;
+  width: 100%;
+}
+.calc-sub-details-cont .link-cont ul li {
+  float: left;
+  width: auto;
+  margin: 0;
+}
+.calc-sub-details-cont .link-cont ul li a {
+  float: left;
+  color: #626262;
+  font-size: 11px;
+  line-height: 12px;
+  padding: 0 7px;
+  border-right: 1px solid #626262;
+  text-decoration: underline;
+}
+.calc-sub-details-cont .link-cont ul li.first a {
+  padding-left: 0;
+}
+.calc-sub-details-cont .link-cont ul li.last a {
+  border-right: none;
+}
+/* ---------------------- calculator css : start  -----------------------*/
+
+.cal-cont-wrap {
+  position: relative;
+}
+.cal-slider-wrap {
+  padding: 25px 25px 35px;
+  width: 435px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cal-slider-wrap .btn {
+  padding: 7px 34px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  background: #a02429;
+  display: inline-block;
+}
+
+/*.slider-wrap ul {
+    float: left;
+    width: 84%;
+	margin-left: 25px;
+}*/
+.slider-wrap ul li {
+  float: left;
+  width: 100%;
+  margin-bottom: 25.3px;
+}
+.slider-wrap label {
+  color: #484848;
+  display: block;
+  font-size: 17px;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+
+.slider-wrap .slider-min-val {
+  text-transform: capitalize;
+  color: #666666;
+  font-size: 15px;
+  line-height: 17px;
+  float: left;
+  font-weight: 300;
+  padding: 7px 0;
+  position: relative;
+  top: -24px;
+  left: 1px;
+}
+.slider-wrap .slider-max-val {
+  text-transform: capitalize;
+  color: #666666;
+  font-size: 15px;
+  line-height: 17px;
+  float: left;
+  font-weight: 300;
+  padding: 7px 0;
+  position: relative;
+  top: -24px;
+  right: 0px;
+}
+.slider-wrap .slider-max-val {
+  float: right;
+}
+.cal-slider-wrap .view-btn {
+  position: absolute;
+  bottom: 6px;
+  left: 22px;
+  font-size: 11px;
+  line-height: 12px;
+  color: #f58322;
+  text-decoration: underline;
+  display: inline-block;
+}
+.ui-widget-header,
+.ui-slider .ui-slider-range {
+  display: none;
+  /*  background: transparent url("../images/result_range.png") repeat-x scroll 0px 0px;*/
+  background: transparent
+    linear-gradient(90deg, #a03535 0%, #d7793c 51%, #d77b3c 100%) 0% 0%
+    no-repeat padding-box;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  display: none;
+  background: transparent
+    url('/content/icici-prudential-life-insurance/testing/Prajkta/comp-calc-v1.2/images/Ellipse1266.svg')
+    no-repeat scroll 0px 0px;
+  border: medium none;
+  border-radius: 0;
+  color: #333;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-top: -4px;
+  min-width: 52px;
+  padding-top: 29px;
+  font-family: ZurichBT-Roman;
+}
+div#slider-range-min1 a {
+  min-width: 18px !important;
+}
+
+div#slider-range-min2 a {
+  min-width: 37px !important;
+}
+
+div#slider-range-min3 a {
+  min-width: 33px !important;
+}
+
+/*------------------- colorbox styling -------------------*/
+
+#cboxClose {
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  text-indent: -9999px;
+  top: 20px;
+  visibility: visible;
+  width: 20px;
+}
+#colorbox .callCloseBtn {
+  background: transparent url('../images/sprite.png') no-repeat scroll center -459px;
+}
+#colorbox .callCloseBtn:hover {
+  background-position: center -459px;
+}
+#cboxContent {
+  background: transparent;
+}
+#cboxTopLeft,
+#cboxTopCenter,
+#cboxTopRight,
+#cboxMiddleLeft,
+#cboxMiddleRight,
+#cboxBottomLeft,
+#cboxBottomCenter,
+#cboxBottomRight {
+  width: 0;
+  height: 0;
+}
+#cboxLoadedContent {
+  margin: 0;
+}
+/*------------------- popup styling -------------------*/
+
+.popup-container {
+  background: #ececec;
+  text-align: center;
+  padding: 25px 14px;
+}
+.popup-container h4 {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.popup-container p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+/*------------------------------------------- Mobile Css :- Start -------------------------------------------*/
+@media (max-width: 1000px) {
+  #header-wrapper {
+    display: none !important;
+  }
+  #footer-wrapper {
+    display: none !important;
+  }
+  #footer_links {
+    display: none !important;
+  }
+  #breadcrumbcontent {
+    display: none !important;
+  }
+  #feedback {
+    display: none !important;
+  }
+  .breadcruminside {
+    display: none !important;
+  }
+  .bottom-links {
+    display: none !important;
+  }
+  #content-wrapper {
+    height: 489px !important;
+  }
+  .logoHeader {
+    display: block !important;
+  }
+  .hoz-line-products {
+    display: none !important;
+  }
+  .poc-calc {
+    width: 95% !important;
+  }
+  .mainGraph {
+    width: 95% !important;
+  }
+  .verLine {
+    display: none !important;
+  }
+  text {
+    font-size: 9px !important;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .actualAmt {
+    width: 75% !important;
+  }
+  .slider-wrap .slider-range {
+    width: 73%;
+
+    margin-top: -12px;
+  }
+}
+@media all and (max-width: 840px) {
+  /*#content-wrapper{
+		height:509px !important;
+	}*/
+  #content1 {
+    position: relative !important;
+    top: -1px !important;
+  }
+  #content2 {
+    position: relative !important;
+    top: -1px !important;
+  }
+  .slider-wrap ul li {
+    margin-bottom: 18.7px !important;
+  }
+  .wb-main-txt {
+    padding-left: 8px !important;
+  }
+  .wb-main-txt .spacer10 {
+    height: 12px !important;
+  }
+  .main-heading-wb {
+    font-size: 13px !important;
+  }
+  .main-heading-wb + .spacer10 {
+    height: 7px !important;
+  }
+  .txt-2 {
+    font-size: 12px !important;
+  }
+  .txt-2 + .spacer10 {
+    height: 7px !important;
+  }
+  .img-buynow-gwp,
+  .img-buynow-ca {
+    width: 60% !important;
+    float: left !important;
+  }
+  .main-heading-ca {
+    font-size: 13px !important;
+  }
+  .ca-content-txt {
+    font-size: 12px !important;
+    text-align: left;
+  }
+
+  .leftArrow-img-span img {
+    width: 70% !important;
+  }
+  .refIcon1 {
+    width: 11% !important;
+  }
+  .slider-wrap ul {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+  .calc-sub-details-cont ul li.last {
+    width: 100% !important;
+    float: none !important;
+    display: inline-block !important;
+  }
+
+  .calc-sub-details-cont ul {
+    text-align: center !important;
+  }
+
+  #content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* ----------------------- calculator form css : start  ----------------------*/
+
+  .cal-form-container {
+    width: auto;
+  }
+  .cal-form-container input {
+    width: 87%;
+  }
+  /* ---------------------- calculator graph css : start  -----------------------*/
+
+  .cal-cont h2 {
+    margin-bottom: 15px !important;
+  }
+  .cal-cont h2 span {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 2px;
+  }
+  .calc-graph-container .btn {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 8px 30px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    display: inline-block;
+  }
+  .calc-graph-container .row {
+    position: relative;
+  }
+  .calc-graph-container .view-btn {
+    right: 0px;
+  }
+  .calc-graph-container h3 {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 12px;
+  }
+  .calc-graph-container h4 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .cal-calculated-details {
+    text-align: center;
+    padding: 14px 8px;
+  }
+  .cal-calculated-details p {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .cal-calculated-details label {
+    margin-bottom: 44px;
+    margin-top: 34px;
+  }
+  .cal-calculated-details .cal-val {
+    font-size: 30px;
+    line-height: 32px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 27px;
+  }
+  .cal-calculated-details .cal-val .rupee-icon {
+    font-size: 20px;
+    line-height: 22px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  .calc-details-cont {
+    padding: 15px 0;
+  }
+  .calc-details-cont .col {
+    padding: 0px 14px;
+  }
+  .calc-details-cont .colOne {
+    margin-right: 0px;
+    border-bottom: 3px solid #d4d4d4;
+    float: none;
+    display: block;
+    width: auto;
+  }
+  .calc-details-cont .colTwo {
+    overflow: hidden;
+    display: block;
+  }
+  .calc-details-cont .desc {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 18px;
+  }
+  .calc-sub-details-cont ul {
+    float: left;
+    width: 100%;
+  }
+  .calc-sub-details-cont > ul li {
+    margin-right: 4px;
+    width: 451px;
+    margin-bottom: 35px;
+  }
+  /* ---------------------- calculator css : start  -----------------------*/
+
+  .cal-cont-wrap {
+    position: relative;
+  }
+  .cal-slider-wrap {
+    padding: 25px 14px;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+    display: block;
+  }
+  .cal-slider-wrap .btn {
+    margin-bottom: 20px;
+  }
+  .slider-wrap {
+    margin-top: 0px;
+  }
+  .slider-wrap label {
+    font-size: 14px;
+    line-height: 16px;
+    color: #484848;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .slider-wrap .slider-min-val,
+  .slider-wrap .slider-max-val {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .cal-slider-wrap .view-btn {
+    position: static;
+    bottom: auto;
+    left: auto;
+    display: block;
+  }
+  .ui-state-default,
+  .ui-widget-content .ui-state-default,
+  .ui-widget-header .ui-state-default {
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 30px;
+  }
+  #cboxClose {
+    top: 10px;
+    right: 10px;
+  }
+}
