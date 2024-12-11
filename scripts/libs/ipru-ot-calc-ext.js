@@ -26,11 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
           '../../images/ipru-wbo/term-insurense.gif',
           'term-insurance-gif',
           'https://www.iciciprulife.com/term-insurance-plans/iprotect-smart-term-insurance-calculator.html?UID=40759',
-          'Calculate Term Insurance Premium'
+          'Calculate Term Insurance Premium',
         );
       } else if (index === 1) {
+        // eslint-disable-next-line no-undef
         updateContent('image2.jpg', 'Text 2', 'https://example2.com');
       } else if (index === 2) {
+        // eslint-disable-next-line no-undef
         updateContent('image3.jpg', 'Text 3', 'https://example3.com');
       }
     });
