@@ -3,3 +3,4 @@ helix-importer-ui
 scripts/libs/jquery-jqChart-min.js
 scripts/libs/ipru-cnsi-calc-ext.js
 blocks/ipru-cnsi-calc/ipru-cnsi-calc.js
+blocks/ipru-cnsi-calc/ipru-cnsi-calc.css
