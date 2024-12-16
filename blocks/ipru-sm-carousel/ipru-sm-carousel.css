@@ -93,6 +93,7 @@
 
 .slide-img img {
   height: 125px;
+  width: auto;
   position: absolute;
   right: 0;
   bottom: 0;
