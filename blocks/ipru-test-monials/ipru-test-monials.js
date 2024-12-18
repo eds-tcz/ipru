@@ -29,7 +29,7 @@ export default function decorate(block) {
       <div class="swiper-pagination"></div>
       <div class="swiper-button-next"></div>
 
-      `
+      `,
     );
   }
 }
