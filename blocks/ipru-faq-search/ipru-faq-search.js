@@ -1,15 +1,15 @@
 function search(event) {
- const tabs_text = event.target.value.toLowerCase();
+  const tabsText = event.target.value.toLowerCase();
   const buttons = document.querySelectorAll('.tag');
-  if(tabs_text == ""){
-     buttons.forEach((button, button_number) => {
-         button.classList.remove('show');
-     });
-     return;
+  if (tabsText === '') {
+    buttons.forEach((button, buttonNumber) => {
+      button.classList.remove('show');
+    });
+    return;
   }
-  buttons.forEach((button, button_number) => {
-    const button_text = button.innerText;
-    if (button_text.toLowerCase().includes(tabs_text)) {
+  buttons.forEach((button, buttonNumber) => {
+    const buttonText = button.innerText;
+    if (buttonText.toLowerCase().includes(tabsText)) {
       button.classList.add('show');
     } else {
       button.classList.remove('show');
@@ -66,7 +66,7 @@ export default function decorate(block) {
     if (r === 1) {
       row.classList.add('faq-buttons');
       [...row.children].forEach((div) => {
-        div.addEventListener("click", filterTab)
+        div.addEventListener('click', filterTab)
         div.classList.add('tags');
         const ptag = div.querySelectorAll('p');
         ptag.forEach((p, i) => {
