@@ -19,7 +19,7 @@ function search(event) {
 
 function filterTab(e) {
   const tabText = e.target.textContent;
-  const tabs = document.querySelectorAll('.tag').forEach((button) => button.classList.remove("active"));
+  const tabs = document.querySelectorAll('.tag').forEach((button) => button.classList.remove('active'));
   e.target.classList.add('active');
   const faqs = document.querySelectorAll('.accordion-item');
   faqs.forEach((faq) => {
