@@ -1,7 +1,42 @@
+function search(event) {
+ const tabs_text = event.target.value.toLowerCase();
+  const buttons = document.querySelectorAll('.tag');
+  if(tabs_text == ""){
+     buttons.forEach((button, button_number) => {
+         button.classList.remove('show');
+     });
+     return;
+  }
+  buttons.forEach((button, button_number) => {
+    const button_text = button.innerText;
+    if (button_text.toLowerCase().includes(tabs_text)) {
+      button.classList.add('show');
+    } else {
+      button.classList.remove('show');
+    }
+  });
+}
+
+function filterTab(e) {
+  const tabText = e.target.textContent;
+  const tabs = document.querySelectorAll('.tag').forEach((button) => button.classList.remove("active"));
+  e.target.classList.add('active');
+  const faqs = document.querySelectorAll('.accordion-item');
+  faqs.forEach((faq) => {
+    const accordion = faq.textContent;
+    if (accordion.toLowerCase().includes(tabText.toLowerCase())) {
+      faq.style.display = '';
+    } else {
+      faq.style.display = 'none';
+    }
+  });
+}
+
 export default function decorate(block) {
   [...block.children].forEach((row, r) => {
     if (r === 0) {
       row.classList.add('faq-search');
+
       while (row.firstChild) {
         row.removeChild(row.firstChild);
       }
@@ -11,6 +46,7 @@ export default function decorate(block) {
       input.type = 'text';
       input.placeholder = 'Have a question? Search here';
       input.className = 'faq-search-input';
+      input.addEventListener('keyup', search);
 
       // Create the button element
       const button = document.createElement('button');
@@ -30,6 +66,7 @@ export default function decorate(block) {
     if (r === 1) {
       row.classList.add('faq-buttons');
       [...row.children].forEach((div) => {
+        div.addEventListener("click", filterTab)
         div.classList.add('tags');
         const ptag = div.querySelectorAll('p');
         ptag.forEach((p, i) => {

@@ -1,0 +1,154 @@
+.compound-interest-container.icici-pru-life-container {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 60px !important;
+}
+
+.compound-interest-container.icici-pru-life-container
+  .compound-interest-wrapper {
+  background: #fcf5ef 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 35px 60px !important;
+  margin-bottom: -35px;
+}
+
+.compound-interest-container.icici-pru-life-container
+  .compound-interest-heading
+  p {
+  margin-bottom: -1px !important;
+}
+
+.icici-pru-life .icici-pru-life-list {
+  padding-top: 53px;
+  padding-bottom: 38px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 100%;
+  position: relative;
+}
+
+@media (width >= 600px) {
+  .icici-pru-life .icici-pru-life-list {
+    font-size: var(--body-font-size-s);
+  }
+}
+
+@media (width >= 900px) {
+  .icici-pru-life .icici-pru-life-list {
+    font-size: var(--body-font-size-m);
+  }
+}
+
+.icici-pru-life-wrapper {
+  background: #fcf5ef 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 1px 60px !important;
+}
+
+.icici-pru-life-list button {
+  background: #f7f7f7;
+  box-shadow: 0 0 3px #00000029;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  width: 260px;
+  height: 96px;
+  padding: 14px 8px 14px 11px;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.icici-pru-life-list button p {
+  margin: 0;
+}
+
+.icici-pru-life-list button[aria-selected='true'] {
+  background: #fcd7ba 0% 0% no-repeat padding-box;
+  border: 1px solid #e08940;
+}
+
+.icici-pru-life-panel {
+  margin-top: -1px;
+  padding: 24px;
+  border: 1px solid #dadada;
+  margin-bottom: 40px;
+}
+
+.icici-pru-life-panel[aria-hidden='true'] {
+  display: none;
+}
+
+.icici-pru-life-tab p:nth-of-type(4) {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.icici-pru-life-tab p:nth-of-type(4) picture {
+  position: absolute;
+  pointer-events: none;
+}
+
+.icici-pru-life-tab p:nth-of-type(4) picture:nth-of-type(1) {
+  top: 20px;
+  left: 100px;
+}
+
+.icici-pru-life-tab p:nth-of-type(4) picture:nth-of-type(2) {
+  bottom: -178px;
+  left: 390px;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+.icici-pru-life-tab p:nth-of-type(4) picture:nth-of-type(3) {
+  top: 20px;
+  right: 175px;
+  position: absolute;
+}
+
+.icici-pru-life-tab p:nth-of-type(1) {
+  background-color: #fff;
+  min-width: 50px;
+  min-height: 49px;
+  max-height: 49px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icici-pru-life-tab p:nth-of-type(2) {
+  color: #b02a30;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.icici-pru-life-tab p:nth-of-type(3) {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #444;
+  width: 80%;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.icici-pru-life-panel {
+  background: #fdede2;
+  box-shadow: 0 3px 6px #00000029;
+  padding: 30px 26px;
+  text-align: start;
+  border-radius: 20px;
+}
+
+.icici-pru-life-panel p {
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #444;
+}

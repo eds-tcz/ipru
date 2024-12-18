@@ -1,5 +1,4 @@
 /* stylelint-disable no-descending-specificity */
-
 .ipru-sm-carousel-wrapper {
   max-width: 100% !important;
   margin-left: 13% !important;
@@ -94,9 +93,15 @@
 
 .slide-img img {
   height: 125px;
+  width: auto;
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.ipru-sm-carousel-wrapper {
+  overflow: hidden;
+  padding: 0 !important;
   width: auto;
 }
 
@@ -138,6 +143,7 @@
   border-radius: 50px;
   color: #e26c41;
   width: 8px;
+  transform: scale(0.7);
   height: 12px;
 }
 

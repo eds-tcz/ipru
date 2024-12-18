@@ -14,27 +14,27 @@
   align-items: center;
   background-color: #fff;
   /* stylelint-disable-next-line color-function-notation */
-  box-shadow: 0 3.86px 11.58px 0 #0000001F;
+  box-shadow: 0 3.86px 11.58px 0 #0000001f;
   padding: 0 0 0 20px;
   margin: 20px auto;
   width: 50%;
   height: 50px;
   border-radius: 55px;
-    font-size: 16px;
-    font-weight: 700;
-    border: unset;
-    outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  border: unset;
+  outline: 0;
 }
 
-.faq-buttons{
+.faq-buttons {
   padding-bottom: 8px;
 }
 
 .faq-search input {
   border: none;
   outline: none;
+  width: 100%;
   font-size: 16px;
-
 }
 
 .faq-search button {
@@ -59,20 +59,24 @@
 }
 
 .tag {
-    padding: 10px 2.3rem;
-    font-size: 16px;
-    font-weight: 500;
-    color: #444;
-    box-shadow: 0 2.41px 14.45px 0 #38292908;
-    background: #fafafa;
-    border: 0;
-    border-radius: 50px;
-    cursor: pointer;
-    margin: 0;
+  padding: 10px 2.3rem;
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  box-shadow: 0 2.41px 14.45px 0 #38292908;
+  background: #fafafa;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0;
+  border: 3px solid transparent;
 }
 
-
 .tag.active {
-      color: #fff !important;
-    background: #f15a22 !important;
+  color: #fff !important;
+  background: #f15a22 !important;
+}
+
+.show {
+  border: 3px solid #f15a22;
 }
