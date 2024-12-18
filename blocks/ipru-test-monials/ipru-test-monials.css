@@ -1,4 +1,19 @@
-/* stylelint-disable no-descending-specificity */
+.ipru-test-monials-wrapper{
+position: relative;
+  width: 1214px;
+  overflow: hidden;
+  padding-bottom: 25px !important;
+}
+
+.ipru-test-monials{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+
+.ipru-test-monials.no-transition {
+  transition: none;
+}
 
 .ipru-test-body tbody {
   display: flex;
@@ -7,7 +22,6 @@
 }
 
 .test-card {
-  /* width: 280px; */
   background: #fff;
   border: 1px solid #d2d2d2;
   border-radius: 25px;
@@ -15,6 +29,9 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 30px 10px;
+  min-width: 31.7%;
+  flex: 0 0 auto;
+  margin-right: 10px;
 }
 
 .test-card p {
@@ -87,61 +104,51 @@
   margin-bottom: 0 !important;
 }
 
-.ipru-testimonials-wrapper {
+/* Code for carousel Functions  */
+
+.carousel {
   overflow: hidden;
-  padding: 0 !important;
+  width: 100%;
 }
 
-.ipru-testimonials .owl-nav {
+
+.carousel-arrow {
+  position: absolute;
+  top: 100%;
+  transform: translateY(-144%);
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 2px 10px;
+  font-size: 18px;
+  z-index: 10;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+}
+
+.left-arrow {
+  left: 450px;
+}
+
+.right-arrow {
+  right: 450px;
+}
+
+.carousel-dots {
   display: flex;
   justify-content: center;
-  gap: 100px;
-  position: absolute;
-  bottom: 3%;
-  left: 10.7%;
+  margin-top: 34px;
 }
 
-.ipru-testimonials .owl-dots {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  position: absolute;
-  bottom: 4.5%;
-  left: 12%;
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
 }
 
-.ipru-testimonials .owl-nav button {
-  position: relative;
-  width: 25px;
-  height: 25px;
-  background: #fbcdbd;
-  border: none;
-  border-radius: 50px;
-  color: #e26c41;
-}
-
-.ipru-testimonials span {
-  position: absolute;
-  top: -9px;
-  left: 10px;
-  font-size: 25px;
-}
-
-.ipru-testimonials .owl-dots button {
-  background: #fbcdbd;
-  border: none;
-  border-radius: 50px;
-  color: #e26c41;
-  width: 8px;
-  height: 12px;
-  transform: scale(0.7);
-}
-
-.ipru-testimonials .owl-dots .owl-dot:disabled,
-.ipru-testimonials .owl-dots .owl-dot.active {
-  background: #e26c41 !important;
-}
-
-.ipru-testimonials .owl-height {
-  margin-bottom: 30px;
+.dot.active {
+  background-color: #333;
 }

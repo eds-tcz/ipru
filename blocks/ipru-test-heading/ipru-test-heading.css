@@ -1,0 +1,57 @@
+/* stylelint-disable no-descending-specificity */
+
+.ipru-test-heading{
+    padding-top: 20px;
+}
+
+.ipru-test-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.test-head-data p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.test-head-data h2 {
+  font-size: 26px;
+  font-weight: 800;
+  width: 286px;
+  line-height: 30px;
+  padding-bottom: 0;
+  color: #444;
+  margin: 0;
+}
+
+.test-head-cta {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 82px;
+  color: #fff;
+  background: #f15a22;
+  font-weight: 600;
+}
+
+.test-head-cta p {
+  margin: 0;
+}
+
+.test-head-cta a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.test-head-cta a:hover {
+  background-color: transparent;
+}
